@@ -1,16 +1,16 @@
 class Solution
 {
-    void msort(vector<int> &v, int strt, int end)
+    void msort(vector<int> &v, int strt, int end, vector<int> &tmp)
     {
         if (strt >= end)
             return;
         int mid = strt + (end - strt) / 2;
 
-        msort(v, strt, mid);
-        msort(v, mid + 1, end);
+        msort(v, strt, mid,tmp);
+        msort(v, mid + 1, end,tmp);
 
         int i = strt, j = mid + 1;
-        vector<int> tmp;
+       
 
         while (i <= mid && j <= end)
         {
@@ -42,13 +42,16 @@ class Solution
         {
             v[k] = tmp[k - strt];
         }
+        tmp.clear();
+            
     }
 
 public:
     vector<int> sortArray(vector<int> &v)
     {
         int strt = 0, end = v.size() - 1;
-        msort(v, strt, end);
+        vector<int>tmp;
+        msort(v, strt, end,tmp);
         return v;
     }
 };
