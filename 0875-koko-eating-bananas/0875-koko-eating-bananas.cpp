@@ -5,19 +5,23 @@ class Solution
         {
             sort(v.begin(), v.end());
             int n = v.size();
-            int strt = 1, end, mid;
-            if (h >= n)
-                end = *max_element(v.begin(), v.end());
-            else
+            int strt, end, mid;
+            long long sum = 0;
+            for (int i = 0; i < n; i++)
             {
-                end = *max_element(v.begin(), v.end()) *h;
+                sum += (v[i] *1ll);
             }
-            // cout<<" strt "<<strt<<" end "<<end<<endl;
+            strt = (sum / (h *1ll));
+            strt *= 1;
+           	//can't eat >max element 
+            end = *max_element(v.begin(), v.end());
+
+           	// cout<<" strt "<<strt<<" end "<<end<<endl;
             int reqTime = 0;
             while (end - strt > 1)
             {
                 mid = strt + (end - strt) / 2;
-                // cout<<" mid "<<mid<<" ";
+               	// cout<<" mid "<<mid<<" ";
                 reqTime = 0;
                 for (int i = 0; i < n; i++)
                 {
@@ -40,6 +44,8 @@ class Solution
                 }
             }
             reqTime = 0;
+            if (strt == 0) return end;
+        //chk if he eat mid banana per hour ,than how much time take to eat all piles...
             for (int i = 0; i < n; i++)
             {
                 if (v[i] % strt == 0)
