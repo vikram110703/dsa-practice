@@ -23,6 +23,20 @@ class Solution
                 }
             }
         }
+    
+    void dfs(int node, map<int, vector<pair<int, int>>> &adj, map< int, bool> &viss, int &mini)
+    {
+        if(viss[node]==false)
+        {
+            viss[node]=true;
+            for(auto it:adj[node])
+            {
+                mini=min(mini,it.second);
+                dfs(it.first,adj,viss,mini);
+            }
+        }
+        
+    }
 
     int minScore(int n, vector<vector < int>> &v)
     {
@@ -40,7 +54,8 @@ class Solution
         for (int i = 0; i < n; i++) viss[i + 1] = false;
         int mini = INT_MAX;
 
-        bfs(1, adj, viss, mini);
+        // bfs(1, adj, viss, mini);
+        dfs(1,adj,viss,mini);
         return mini;
     }
 };
