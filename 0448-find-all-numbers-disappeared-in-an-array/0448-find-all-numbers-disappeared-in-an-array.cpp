@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
        int n=nums.size();
-        map<int,bool>mpp;
+        unordered_map<int,bool>mpp;
         for(int i=0;i<n;i++)
         {
             mpp[nums[i]]=true;
