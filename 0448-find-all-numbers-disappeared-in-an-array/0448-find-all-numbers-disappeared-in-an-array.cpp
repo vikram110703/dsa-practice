@@ -2,17 +2,20 @@ class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
        int n=nums.size();
-        unordered_map<int,bool>mpp;
+       // swap method-> swap (nums[i],nums[nums[i]-1]) untill its not it's right position 
+        
         for(int i=0;i<n;i++)
         {
-            mpp[nums[i]]=true;
+            while(nums[i]>0&&nums[i]<=n&&nums[i]!=nums[nums[i]-1])
+            {
+                swap(nums[i],nums[nums[i]-1]);
+            }
         }
         vector<int>ans;
-        for(int i=1;i<=n;i++)
+        for(int i=0;i<n;i++)
         {
-            if(mpp[i]==false)ans.push_back(i);
+            if(nums[i]!=i+1)ans.push_back(i+1);
         }
         return ans;
-        
     }
 };
