@@ -1,32 +1,24 @@
-class Solution
-{
-    public:
-        int numRescueBoats(vector<int> &v, int limit)
+class Solution {
+public:
+    int numRescueBoats(vector<int>& v, int limit) {
+        int n=v.size();
+        int ans=0;
+        int j=n-1;
+        int i=0;
+        sort(v.begin(),v.end());
+        while(i<=j)
         {
-            multiset<int> st;
-            int n = v.size();
-            for (int i = 0; i < n; i++)
+            if(v[i]+v[j]<=limit)
             {
-                st.insert(v[i]);
+                ans+=1;i+=1;j-=1;
             }
-            int ans = 0;
-            for (int i = 0; i < n; i++)
+            else
             {
-                int a = v[i];
-                auto itt = st.find(a);
-                if (itt != st.end())
-                {
-                    st.erase(itt);
-                    auto it = st.upper_bound(limit - a);
-                    if (it!=st.begin())
-                    {
-                        it--;
-                        st.erase(it);
-                    }
-                    ans += 1;
-                }
+                ans+=1;
+                j-=1;
             }
-
-            return ans;
         }
+        return ans;
+        
+    }
 };
