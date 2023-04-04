@@ -1,21 +1,26 @@
-class Solution {
-public:
-    int partitionString(string s) {
-        int n=s.size();
-        unordered_map<int,char>mpp,tmp;
-        int cnt=0,flg=0;
-        for(int i=0;i<n;i++)
+class Solution
+{
+    public:
+        int partitionString(string s)
         {
-            while( mpp[s[i]]==0 &&i<n)
+            int n = s.size(),ans=0;
+            for (int i = 0; i < n; i++)
             {
-                mpp[s[i]]+=1;i+=1;
+                vector<int>v(26,0);
+                while (i<n&&v[s[i]-'a'] == 0)
+                {
+                    v[s[i]-'a'] += 1;
+                    i += 1;
+                }
+                if (i == n)
+                {
+                    ans += 1;
+                    break;
+                }
+                ans += 1;
+                i -= 1;v.clear();
             }
-            if(i==n){cnt+=1;break;}
-            cnt+=1;
-            i-=1;
-            mpp=tmp;
+            
+            return ans;
         }
-        return cnt;
-        
-    }
 };
