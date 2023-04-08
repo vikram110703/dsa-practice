@@ -25,7 +25,7 @@ public:
             q.pop();
             if(fnode==NULL)
             {
-                v.push_back(vv);
+                v.insert(v.begin(),vv);// insert elements in reverse order
                 vv.clear();
                 if(!q.empty())q.push(NULL);
                 else break;
@@ -38,7 +38,7 @@ public:
             }
         }
         
-        reverse(v.begin(),v.end());
+        // reverse(v.begin(),v.end());
         return v;
         
     }
