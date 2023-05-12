@@ -1,1 +1,1 @@
-# 6Companies30Days
+# DSA PRACTICE
