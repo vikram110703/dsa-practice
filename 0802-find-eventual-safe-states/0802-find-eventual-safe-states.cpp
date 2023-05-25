@@ -1,67 +1,35 @@
 class Solution {
 public:
-    bool dfs(int node,vector<vector<int>>&g,map<int,bool>&viss,map<int,bool>&iscycle,map<int,bool>&dfsViss)
-    {
-        viss[node]=true;
-        dfsViss[node]=true;
-        for(auto &child:g[node])
-        {
-            if(viss[child]==false)
-            {
-               bool chk=dfs(child,g,viss,iscycle,dfsViss);
-                if(chk)
-                {
-                    iscycle[node]=true;
-                    iscycle[child]=true;
-                    return true;
-                }
-            }
-            else if(dfsViss[child]==true)
-            {
-                iscycle[node]=true;
-                iscycle[child]=true;
-                return true;
-            }
-        }
-        dfsViss[node]=false;
-        return false;
-        
-    }
-    
     vector<int> eventualSafeNodes(vector<vector<int>>& g) {
+        
         int n=g.size();
-        map<int,bool>iscycle;
-        map<int,bool>viss;
-        map<int,bool>dfsViss;
-        vector<int>ans;
+        unordered_map<int,int>outDeg;
+        vector<vector<int>>rg(n);
+        queue<int>q;
         for(int i=0;i<n;i++)
         {
-            if(viss[i]==false)
+            outDeg[i]=g[i].size();
+            if(outDeg[i]==0)q.push(i);
+            for(auto &it:g[i])
             {
-                if(iscycle[i]==true)
-                {
-                    ;;
-                }
-              
-                else 
-                {
-                    bool chk=dfs(i,g,viss,iscycle,dfsViss);
-                    if(chk)
-                    {
-                        iscycle[i]=true;
-                        
-                    }
-                }
+                rg[it].push_back(i);
             }
         }
-        for(int i=0;i<n;i++)
+        vector<int>ans;
+        while(!q.empty())
         {
-            if(iscycle[i]==false)ans.push_back(i);
+            int fnode=q.front();
+            ans.push_back(fnode);
+            q.pop();
+            for(auto &it:rg[fnode])
+            {
+                outDeg[it]-=1;
+                if(outDeg[it]==0)q.push(it);
+            }
+            
         }
-        
+        sort(ans.begin(),ans.end());
         return ans;
-        
-        
         
     }
 };
