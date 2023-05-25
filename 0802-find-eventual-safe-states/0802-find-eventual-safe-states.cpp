@@ -12,12 +12,14 @@ public:
                 if(chk)
                 {
                     iscycle[node]=true;
+                    iscycle[child]=true;
                     return true;
                 }
             }
             else if(dfsViss[child]==true)
             {
                 iscycle[node]=true;
+                iscycle[child]=true;
                 return true;
             }
         }
@@ -47,6 +49,7 @@ public:
                     if(chk)
                     {
                         iscycle[i]=true;
+                        
                     }
                 }
             }
