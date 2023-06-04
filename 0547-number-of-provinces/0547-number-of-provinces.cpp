@@ -1,48 +1,45 @@
-class Solution
-{
-    public:
-        void dfs(int n, vector<int> adj[], vector<int> &viss)
-        {
-            viss[n]=true;
-            for (auto child: adj[n])
-            {
-                if (viss[child] == 0)
-                {
-                    viss[child] = 1;
-                    dfs(child, adj, viss);
-                }
-            }
-        }
-
-    int findCircleNum(vector<vector < int>> &isConnected)
+class Solution {
+public:
+    
+    void dfs(int node,vector<vector<int>>&adj,unordered_map<int,bool>&viss)
     {
-        int n = isConnected.size();
-        vector<int> adj[n + 1];
-        for (int i = 0; i < n; i++)
+        viss[node]=true;
+        for(auto &child:adj[node])
         {
-            for (int j = 0; j < n; j++)
+            if(viss[child]==false)
             {
-                if (i != j)
-
+                dfs(child,adj,viss);
+            }
+        }
+    }
+    
+    int findCircleNum(vector<vector<int>>& isConnected) {
+        int n=isConnected.size();
+        vector<vector<int>>adj(n+1);
+        for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<n;j++)
+            {
+                if(isConnected[i][j]==1)
                 {
-                    if (i!=j&&isConnected[i][j] == 1)
-                    {
-                        adj[i + 1].push_back(j + 1);
-                        adj[j + 1].push_back(i + 1);
-                    }
+                    adj[i+1].push_back(j+1);
                 }
             }
         }
-        vector<int> viss(n + 1, 0);
-        int cnt = 0;
-        for (int i = 1; i <= n; i++)
+        unordered_map<int,bool>viss;
+        
+        // coutn disconnected components
+        int cnt=0;
+        for(int i=1;i<=n;i++)
         {
-            if (viss[i] == 0)
+            if(viss[i]==false)
             {
-                dfs(i, adj, viss);
-                cnt += 1;
+                dfs(i,adj,viss);
+                cnt+=1;
             }
         }
+        
         return cnt;
+        
     }
 };
