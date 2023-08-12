@@ -1,29 +1,33 @@
-class Solution {
-public:
-    int uniquePathsWithObstacles(vector<vector<int>>& arr) {
-        int n=arr.size();
-        int m=arr[0].size();
-        int dp[n][m];
-        for(int i=0;i<n;i++)
+class Solution
+{
+    public:
+        int uniquePathsWithObstacles(vector<vector < int>> &v)
         {
-            for(int j=0;j<m;j++)
+            int n = v.size(), m = v[0].size();
+
+            vector<vector<int>>dp(n,vector<int>(m,0));
+            for (int i = 0; i < n; i++)
             {
-                dp[i][j]=0;
-            }
-        }
-        dp[0][0]=1;
-        for(int i=0;i<n;i++)
-        {
-            for(int j=0;j<m;j++)
-            {
-                if(arr[i][j]==1)dp[i][j]=0;
-                else
+                for (int j = 0; j < m; j++)
                 {
-                   if(i-1>=0)dp[i][j]+=dp[i-1][j];
-                    if(j-1>=0)dp[i][j]+=dp[i][j-1];
+                    if (i == 0 && j == 0)
+                    {
+                        if (v[i][j] == 1) dp[i][j] = 0;
+                        else dp[i][j] = 1;
+                    }
+                    else
+                    {
+                        if (i - 1 >= 0 && v[i - 1][j] != 1&&v[i][j]!=1)
+                        {
+                            dp[i][j] += dp[i - 1][j];
+                        }
+                        if (j - 1 >= 0 && v[i][j - 1] != 1&&v[i][j]!=1)
+                        {
+                            dp[i][j] += dp[i][j - 1];
+                        }
+                    }
                 }
             }
+            return dp[n-1][m-1];
         }
-        return dp[n-1][m-1];
-    }
 };
