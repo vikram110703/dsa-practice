@@ -1,25 +1,30 @@
-class Solution
-{
-    public:
-        int findDuplicate(vector<int> &v)
+class Solution {
+public:
+    int findDuplicate(vector<int>& nums) {
+       int n=nums.size();
+        int strt=1,end=n;
+        while(end-strt>1)
         {
-            int n = v.size();
-            int index = 1;
-            for (int i = 0; i < n; i++)
+            int mid=strt+(end-strt)/2;
+            int cnt=0;
+            for(int i=0;i<n;i++)
             {
-               	//index 
-                
-               
-                index=abs(v[i])-1;
-                if (v[index] < 0)
-                {
-                    return index + 1;
-                }
-                else
-                {
-                    v[index] *= -1;
-                }
+                if(nums[i]<=mid)cnt+=1;
             }
-            return index;
+            if(cnt>mid){
+                end=mid;
+            }
+            else//cnt<=mid
+            {
+                strt=mid+1;
+            }
         }
+        int cnt=0;
+        for(int i=0;i<n;i++)
+        {
+            if(nums[i]==strt)cnt+=1;
+        }
+        if(cnt>1)return strt;
+        else return end;
+    }
 };
