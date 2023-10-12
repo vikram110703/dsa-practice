@@ -24,16 +24,39 @@ class Solution
     int minimumTotal(vector<vector < int>> &tr)
     {
 
-        int n = tr.size();
-        if(n==1)return tr[0][0];
-        vector<vector < int>> dp(n, vector<int> (n+1 , INT_MAX));
-        int mini=INT_MAX;
-        for(int i=0;i<n;i++)
-        {
-          int curr=cal(i, n-1, tr, dp);
-            mini=min(mini,curr);
+        // int n = tr.size();
+        // if(n==1)return tr[0][0];
+        // vector<vector < int>> dp(n, vector<int> (n+1 , INT_MAX));
+        // int mini=INT_MAX;
+        // for(int i=0;i<n;i++)
+        // {
+        //   int curr=cal(i, n-1, tr, dp);
+        //     mini=min(mini,curr);
+        // }
+        // return mini;
+        
+        //tabulation 
+        
+        int n=tr.size();
+        vector<vector<int>>dp(n);
+        for(int i=0;i<n;i++){
+            for(int j=0;j<=i;j++){
+                if(i==0){
+                    dp[i].push_back(tr[0][0]);
+                }
+                else{
+                    int mini=INT_MAX;
+                    if(j!=0){
+                        mini=min(mini,tr[i][j]+dp[i-1][j-1]);
+                    }
+                    if(j!=i){
+                        mini=min(mini,tr[i][j]+dp[i-1][j]);
+                    }
+                    dp[i].push_back(mini);
+                }
+            }
         }
-        return mini;
+        return *min_element(dp[n-1].begin(),dp[n-1].end());
        
     }
 };
