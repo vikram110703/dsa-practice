@@ -1,18 +1,21 @@
 class Solution
 {
     public:
-        // int dfs(int node, vector<int> &time, vector<vector< int >> &adj, vector< bool > &viss)
-        // {
-        //     int tm = time[node];
-        //     for (auto &child: adj[node])
-        //     {
-        //         if (viss[child] == false)
-        //         {
-        //             tm += dfs(child, time, adj, viss);
-        //         }
-        //     }
-        //     return tm;
-        // }
+        int dfs(int node, vector<int> &time, vector<vector< int >> &adj, vector< int >&maxDist)
+        {
+            if(maxDist[node]!=INT_MIN){
+                return maxDist[node];
+            }
+            int tm = time[node];
+            int maxi=0;
+            for (auto &child: adj[node])
+            {
+               int a= dfs(child, time, adj, maxDist);
+                maxi=max(maxi,a);
+                
+            }
+            return maxDist[node]=tm+maxi;
+        }
 
     int minimumTime(int n, vector<vector < int>> &rel, vector< int > &time)
     {
@@ -30,23 +33,14 @@ class Solution
         queue<int> q;
         for (int i = 0; i < n; i++)
             if (inDeg[i] == 0) q.push(i);
-
-        while (!q.empty())
-        {
-            int node = q.front();
+        
+        int ans=0;
+        while(!q.empty()){
+            int node=q.front();
             q.pop();
-            maxDist[node] = max(maxDist[node], time[node]);
-            for (auto &it: adj[node])
-            {
-                maxDist[it] = max(maxDist[it], maxDist[node] + time[it]);
-
-                inDeg[it]--;
-                if (inDeg[it] == 0)
-                {
-                    q.push(it);
-                }
-            }
+            ans=max(ans,dfs(node,time,adj,maxDist));
         }
-        return *max_element(maxDist.begin(),maxDist.end());
+    return ans;
+       
     }
 };
