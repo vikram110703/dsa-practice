@@ -5,11 +5,11 @@ public:
     {        
         if(ind==nums.size()){ 
             if(sum==0)return 0;
-            else return -1e5;
+            else return INT_MIN;
         }
         
         if(dp[ind][sum]!=-1)return dp[ind][sum];
-        int take=-1e5,notTake=-1e5;
+        int take=INT_MIN,notTake=INT_MIN;
         
         if(nums[ind]<=sum){
             take=1+cal(ind+1,sum-nums[ind],nums,dp);
