@@ -1,31 +1,20 @@
 class Solution {
 public:
-
-    vector<int>sortByBits(vector<int>& arr) {
-        int n=arr.size();
-        unordered_map<int,int>mpp;
-        for(int i=0;i<n;i++){
-            int count_bits=0;
-            for(int j=0;j<32;j++){
-                if(((arr[i]&(1<<j))>0))count_bits+=1;
-            }
-            mpp[arr[i]]=count_bits;
-        }
-    vector<pair<int,int>>v;
-      for(int i=0;i<n;i++)v.push_back({arr[i],mpp[arr[i]]});
-        
-         auto cmp = [](pair<int, int>& a, pair<int, int>& b) {
-            if (a.second == b.second) return a.first < b.first;
-            else return a.second < b.second;
+      static bool cmp (int a, int b) {
+            if(count_bits(a)==count_bits(b))return a<b;
+             else return count_bits(a)<count_bits(b);
         };
-        
-        sort(v.begin(),v.end(),cmp);
-        
-        for(int i=0;i<n;i++){
-            // cout<<arr[i]<<" "<<mpp[arr[i]]<<endl;
-            arr[i]=v[i].first;
+    
+     static int count_bits(int &num){
+        int count=0;
+        for(int i=0;i<32;i++){
+            if(((1<<i)&num)>0)count+=1;
         }
-
+        return count;
+    }
+    
+    vector<int>sortByBits(vector<int>& arr) {
+        sort(arr.begin(),arr.end(),cmp);
         return arr;
     }
     
