@@ -1,41 +1,27 @@
-class Solution
-{
-    public:
-        bool canPlaceFlowers(vector<int> &v, int k)
-        {
-           	// if(n==0)return false;
-            if(k==0)return true;
-            int n = v.size(), ans = 0;
-            if (n == 1)
-            {
-                if (v[0] == 0 && k == 1) return true;
-                else return false;
+class Solution {
+public:
+    bool canPlaceFlowers(vector<int>& flowerbed, int n) {
+        int m=flowerbed.size();
+      if(m==1){
+          if(flowerbed[0]==0&&n<=1)return true;
+          else if(flowerbed[0]==1&&n==0)return true;
+          else return false;
+      }
+            if(flowerbed[0]==0&&flowerbed[1]==0){
+                n-=1;
+                flowerbed[0]=1;
             }
-            if (v[0] == 0 && v[1] == 0)
-            {
-                ans += 1;
-                v[0] = 1;
+        
+        for(int i=1;i<m-1;i++){
+            if(flowerbed[i]==0&&flowerbed[i-1]==0&&flowerbed[i+1]==0){
+                n-=1;
+                flowerbed[i]=1;
             }
-            for (int i = 1; i < n ; i++)
-            {
-                if (i + 1 < n)
-                {
-                    if (v[i] == 0 && v[i - 1] == 0 && v[i + 1] == 0)
-                    {
-                        ans += 1;
-                        v[i] = 1;
-                    }
-                }
-                else
-                {
-                    if (v[i] == 0 && v[i - 1] == 0)
-                    {
-                        ans += 1;
-                        v[i] = 1;
-                    }
-                }
-            }
-            if (ans >= k) return true;
-            else return false;
         }
+        if(flowerbed[m-1]==0&&flowerbed[m-2]==0)n-=1;
+        // cout<<n<<endl;
+        if(n<=0)return true;
+        else return false;
+       
+    }
 };
