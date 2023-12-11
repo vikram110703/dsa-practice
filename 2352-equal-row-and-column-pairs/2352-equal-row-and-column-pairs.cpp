@@ -1,41 +1,26 @@
-class Solution
-{
-    public:
-        int equalPairs(vector<vector < int>> &grid)
-        {
-            map<vector < int>, vector< int>> row, col;
-            int n = grid.size();
-            vector<int> tmp;
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < n; j++)
-                {
-                    tmp.push_back(grid[i][j]);
-                }
-                row[tmp].push_back(i);
-                tmp.clear();
-            }
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < n; j++)
-                {
-                    tmp.push_back(grid[j][i]);
-                }
-                col[tmp].push_back(i);
-                tmp.clear();
-            }
-            
-            tmp.clear();
-            int cnt=0;
-            for(auto &it:row)
-            {
-                tmp=it.first;
-                if(col.find(tmp)!=col.end())
-                {
-                    cnt+=(it.second.size()*col[tmp].size());
-                }
-            }
-            return cnt;
-            
+class Solution {
+public:
+    int equalPairs(vector<vector<int>>& grid) {
+        int n=grid.size();
+        map<vector<int>,int>mp,mpp;
+        for(int i=0;i<n;i++){
+            //row
+            mp[grid[i]]+=1;
         }
+        for(int i=0;i<n;i++){
+            vector<int>tmp;//col
+            for(int j=0;j<n;j++){
+                tmp.push_back(grid[j][i]);
+            }
+            mpp[tmp]+=1;
+        }
+        int ans=0;
+        for(auto it:mp){
+            if(mpp.count(it.first)){
+                ans+=(it.second*mpp[it.first]);
+            }
+        }
+        return ans;
+        
+    }
 };
