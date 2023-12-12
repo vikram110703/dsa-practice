@@ -10,33 +10,35 @@
  */
 class Solution {
 public:
-    int pairSum(ListNode* head) {
-        
-        int n=0,ind=0,ans=0;
-        ListNode* tmp=head;
-        while(tmp)
-        {
-            n+=1;tmp=tmp->next;
-        }
-        
-        tmp=head;
-        unordered_map<int,int>mpp;
-        while(tmp!=NULL)
-        {
-            if(ind<n/2)
-            {
-                
-            mpp[ind++]=tmp->val;
-            }
-            else
-            {
-                mpp[n-1-ind]+=tmp->val;
-                ans=max(ans,mpp[n-1-ind]);
-                ind+=1;
-            }
-            tmp=tmp->next;
-        }
-        return ans;
-        
-    }
+   int pairSum(ListNode* head) {
+	ListNode* slow = head;
+	ListNode* fast = head;
+	int maxVal = 0;
+
+	// Get middle of linked list
+	while(fast && fast -> next)
+	{
+		fast = fast -> next -> next;
+		slow = slow -> next;
+	}
+
+	// Reverse second part of linked list
+	ListNode *nextNode, *prev = NULL;
+	while (slow) {
+		nextNode = slow->next;
+		slow->next = prev;
+		prev = slow;
+		slow = nextNode;
+	}
+
+	// Get max sum of pairs
+	while(prev)
+	{
+		maxVal = max(maxVal, head -> val + prev -> val);
+		prev = prev -> next;
+		head = head -> next;
+	}
+
+	return maxVal;
+}
 };
