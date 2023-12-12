@@ -10,24 +10,19 @@
  * };
  */
 class Solution {
-    
-    int maxd(TreeNode* tmp)
-    {
-       if(tmp==NULL)return 0;
-        int leftDepth=maxd(tmp->left);
-        int rightDepth=maxd(tmp->right);
-        
-        return max(leftDepth,rightDepth)+1;
-        
-    }
-    
-    
 public:
+    int height(TreeNode* root){
+        if(root==NULL)return 0;
+        if(root->left==NULL&&root->right==NULL)return 1;
+        int left=0,right=0;
+        left=height(root->left);
+        right=height(root->right);
+        return 1+max(left,right);
+    }
     int maxDepth(TreeNode* root) {
-        TreeNode* tmp=root;
-        return maxd(tmp);
-        
-        
-        
+        if(root==NULL)return 0;
+        int left=height(root->left);
+        int right=height(root->right);
+        return 1+(max(left,right));
     }
 };
