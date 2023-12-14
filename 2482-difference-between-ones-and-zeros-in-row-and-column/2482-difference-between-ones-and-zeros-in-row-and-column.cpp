@@ -1,8 +1,8 @@
 class Solution {
 public:
     vector<vector<int>> onesMinusZeros(vector<vector<int>>& grid) {
-        unordered_map<int,int>oneRow,oneCol;
-        int n=grid.size(),m=grid[0].size();
+       int n=grid.size(),m=grid[0].size();
+        vector<int>oneRow(n),oneCol(m);
         //row
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
