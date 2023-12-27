@@ -1,20 +1,17 @@
 class Solution {
 public:
-    multiset<int>st;
-    int ans=0;
+    int ans=0,currSum=0,maxi=0;
     int minCost(string colors, vector<int>& neededTime) {
         int n=colors.size();
         char prev=colors[0];
         for(int i=0;i<n;i++){
-            st.clear();
+            currSum=0;maxi=neededTime[i];
             while(i<n&&colors[i]==prev){
-                st.insert(neededTime[i]);
+                currSum+=neededTime[i];
+                maxi=max(maxi,neededTime[i]);
                 i+=1;
             }
-            while(st.size()>1){
-                ans+=(*st.begin());
-                st.erase(st.begin());
-            }
+           ans+=currSum-maxi;
             if(i<n){
                 prev=colors[i];
                 i-=1;
