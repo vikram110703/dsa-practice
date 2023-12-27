@@ -1,42 +1,28 @@
 class Solution {
 public:
-    void print(int ind,int k,int cnt,int sum,int n,vector<vector<int>>&ans,vector<int>&tmp)
-    {
-        if(cnt==k||ind>9)
-        {  
-            if(sum==n)
-            {
+    vector<vector<int>>ans;
+    
+    void cal(int i,int n,int k,vector<int>tmp,int currSum){
+        if(tmp.size()==k||i>9){
+            if(tmp.size()==k&&currSum==n){
                 ans.push_back(tmp);
             }
-            return;
+            return ;
         }
-        //take
-        if(ind+sum<=n)
-        {
-            auto it=find(tmp.begin(),tmp.end(),ind);
-            if(it==tmp.end())
-            {
-            tmp.push_back(ind);
-            print(ind,k,cnt+1,sum+ind,n,ans,tmp);
-            tmp.pop_back();//backTracking
+        if(i+currSum<=n){
+            if(find(tmp.begin(),tmp.end(),i)==tmp.end()){
+                tmp.push_back(i);
+                cal(i+1,n,k,tmp,currSum+i);
+                //backTrack
+                tmp.pop_back();
             }
-            print(ind+1,k,cnt,sum,n,ans,tmp);
-            // tmp.pop_back();
+            cal(i+1,n,k,tmp,currSum);
         }
-        else
-        {
-            return;
-        }
-       
-        
     }
     
     vector<vector<int>> combinationSum3(int k, int n) {
-        vector<vector<int>>ans;
         vector<int>tmp;
-        int cnt=0,sum=0;
-        print(1,k,cnt,sum,n,ans,tmp);
+        cal(1,n,k,tmp,0);
         return ans;
-        
     }
 };
