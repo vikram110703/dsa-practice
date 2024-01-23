@@ -7,7 +7,7 @@ public:
         for(int i = 0;i<=(1<<n)-1;i++){
             int len  = 0;
             s.clear();
-            for(int j  =0;j<17;j++){
+            for(int j=0;j<17;j++){
                 if(i & (1<<j)){
                     for(int k = 0;k<arr[j].size();k++){
                         if(s.count(arr[j][k])){
