@@ -1,33 +1,34 @@
-class Solution
-{
-    public:
-        void chk(int n, int open, int close, vector<string> &ans, string &s)
-        {
-            if (open + close >= 2 *n)
-            {
-                ans.push_back(s);
-                return;
-            }
-            if (open < n)
-            {
-                s += '(';
-                chk(n, open+1, close, ans, s);
-                s.pop_back();
-            }
-            if(close<n&&open>close)
-            {
-                 s += ')';
-                chk(n, open, close+1, ans, s);
-                s.pop_back();
-            }
+class Solution {
+public:
+    // l->(
+    // r->) 
+    int nn;
+    void chk(int ind,int l,int r,vector<string>&ans,string s){
+        if(ind>=2*nn){
+            if(l==r)
+            ans.push_back(s);
+            return;
         }
-
-    vector<string> generateParenthesis(int n)
-    {
-        vector<string> ans;
-        string s = "";
-        int open = 0, close = 0;
-        chk(n, open, close, ans, s);
+        if(l>r){
+            s+='(';
+            chk(ind+1,l+1,r,ans,s);
+            s.pop_back();
+            s+=')';
+            chk(ind+1,l,r+1,ans,s);
+            
+        }
+        else if(l==r){
+            s+='(';
+            chk(ind+1,l+1,r,ans,s);
+        }
+        
+    }
+    
+    vector<string> generateParenthesis(int n) {
+        nn=n;
+        string s="";
+        vector<string>ans;
+        chk(0,0,0,ans,s);
         return ans;
     }
 };
