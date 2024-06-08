@@ -21,7 +21,6 @@ public:
             freq[nums[i]%k]=i;
         }
       
-        // }
         return false;
         
         
