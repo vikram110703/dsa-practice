@@ -19,13 +19,12 @@ public:
         return root->val+left+right;
     }
     
-    void dfs(TreeNode* root,int parentSum){
+    void dfs(TreeNode* root,int &parentSum){
         if(root==NULL)return ;
-        int left=sum(root->left);
-        int right=sum(root->right);
-        root->val+=right+parentSum;
-        dfs(root->right,parentSum);
-        dfs(root->left,root->val);
+       dfs(root->right,parentSum);
+        parentSum+=root->val;
+        root->val=parentSum;
+        dfs(root->left,parentSum);
     }
     
     TreeNode* bstToGst(TreeNode* root) {
