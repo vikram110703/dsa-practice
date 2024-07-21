@@ -1,72 +1,39 @@
 class Solution {
 public:
     
-    bool dfs(int node,vector<int>adj[],unordered_map<int,bool>&dfsViss,unordered_map<int,bool>&viss)
-    {
-        
-        viss[node]=true;
-        dfsViss[node]=true;
-        for(auto child:adj[node])
+       vector<int> bfs(int n,vector<int>&inDeg,vector<vector<int>>&adj){
+        queue<int>q;
+        vector<int>topo;
+        int cnt=0;
+        for(int i=0;i<n;i++){
+            if(inDeg[i]==0)q.push(i);
+        }
+        while(!q.empty())
         {
-            if(viss[child]==false)
-            {
-                bool chk=dfs(child,adj,dfsViss,viss);
-                if(chk==true)return true;
-            }
-            else
-            {
-                if(dfsViss[child]==true)return true;
+            int fnode=q.front();
+            q.pop();
+            topo.push_back(fnode);
+            for(auto &it:adj[fnode]){
+                inDeg[it]--;
+                if(inDeg[it]==0){
+                    q.push(it);
+                }
             }
         }
-        dfsViss[node]=false;
-        return false;
+        if(topo.size()==n)return topo;
+         else return {};
     }
     
-    vector<int> findOrder(int numCourses, vector<vector<int>>& v) {
-        
-        int n=v.size();
-        vector<int>adj[numCourses];
-        unordered_map<int,bool>dfsViss;
-        unordered_map<int,bool>viss;
-        unordered_map<int,int>inDeg;
-        for(int i=0;i<n;i++)
-        {
-            adj[v[i][1]].push_back(v[i][0]);
-            inDeg[v[i][0]]++;
+    vector<int> findOrder(int n, vector<vector<int>>& preq){
+         vector<vector<int>>adj(n);
+         vector<int>inDeg(n,0);
+         for(int i=0;i<preq.size();i++){
+           int u=preq[i][0];
+           int v=preq[i][1];
+            adj[v].push_back(u);
+            inDeg[u]+=1;
         }
-        bool iscycle=false;
-        vector<int>ans;
-        for(int i=0;i<numCourses;i++)
-        {
-            if(viss[i]==false)
-            {
-                if(dfs(i,adj,dfsViss,viss)==true)
-                {
-                    iscycle=true;
-                    break;
-                }
-            }
-        }
-        
-        if(iscycle)return {};
-        else
-        {
-            for(int i=0;i<numCourses;i++)
-            {
-                if(inDeg[i]==0)ans.push_back(i);
-            }
-            int i=0;
-            while(ans.size()<numCourses&&i<ans.size())
-            {
-                for(auto it:adj[ans[i]])
-                {
-                    --inDeg[it];
-                    if(inDeg[it]==0)ans.push_back(it);
-                }
-                i+=1;
-            }
-            return ans;
-        }
+        return bfs(n,inDeg,adj);
         
     }
 };
