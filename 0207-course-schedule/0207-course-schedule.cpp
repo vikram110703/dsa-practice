@@ -1,51 +1,35 @@
 class Solution {
 public:
-      bool dfs(int node,vector<int>adj[],unordered_map<int,bool>&dfsViss,unordered_map<int,bool>&viss)
-    {
-        
-        viss[node]=true;
-        dfsViss[node]=true;
-        for(auto child:adj[node])
-        {
-            if(viss[child]==false)
-            {
-                bool chk=dfs(child,adj,dfsViss,viss);
-                if(chk==true)return true;
-            }
-            else
-            {
-                if(dfsViss[child]==true)return true;
-            }
+    bool bfs(int n,vector<int>&inDeg,vector<vector<int>>&adj){
+        queue<int>q;
+        int cnt=0;
+        for(int i=0;i<n;i++){
+            if(inDeg[i]==0)q.push(i);
         }
-        dfsViss[node]=false;
-        return false;
-    }
-    
-    bool canFinish(int numCourses, vector<vector<int>>& v) {
-        
-          
-        int n=v.size();
-        vector<int>adj[numCourses];
-        unordered_map<int,bool>dfsViss;
-        unordered_map<int,bool>viss;
-        for(int i=0;i<n;i++)
+        while(!q.empty())
         {
-            adj[v[i][1]].push_back(v[i][0]);
-        }
-        bool iscycle=false;
-        for(int i=0;i<numCourses;i++)
-        {
-            if(viss[i]==false)
-            {
-                if(dfs(i,adj,dfsViss,viss)==true)
-                {
-                    iscycle=true;
-                    break;
+            int fnode=q.front();
+            q.pop();
+            cnt+=1;
+            for(auto &it:adj[fnode]){
+                inDeg[it]--;
+                if(inDeg[it]==0){
+                    q.push(it);
                 }
             }
         }
-        return iscycle==true?false:true;
-        
-        
+        return cnt==n;
+    }
+    
+    bool canFinish(int n, vector<vector<int>>& preq) {
+        vector<vector<int>>adj(n);
+        vector<int>inDeg(n,0);
+        for(int i=0;i<preq.size();i++){
+           int u=preq[i][0];
+           int v=preq[i][1];
+            adj[u].push_back(v);
+            inDeg[v]+=1;
+        }
+        return bfs(n,inDeg,adj);
     }
 };
