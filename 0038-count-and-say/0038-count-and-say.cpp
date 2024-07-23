@@ -1,43 +1,25 @@
 class Solution {
 public:
-  
+    
+    string chk(string s,int cntt,int n){
+        if(cntt==n){
+           return s;
+        }
+        string tmp="";
+        int cnt=1;
+        int nn=s.size();
+        for(int i=0;i<nn;i++){
+            char c=s[i];
+            cnt=1;
+            while(i<nn-1&&s[i]==s[i+1]){
+                cnt+=1;i+=1;
+            }
+                tmp+=(to_string(cnt))+c;
+        }
+        return chk(tmp,cntt+1,n);
+    }
     
     string countAndSay(int n) {
-        if(n==1)return "1";
-        string ans="1";
-        for(int i=2;i<=n;i++){
-            // cout<<ans<<" ";
-            string tmp="";
-            int nn=ans.size();
-            if(nn==1){
-                ans="11";
-            }
-            else{
-                int cnt=0;
-                for(int ii=1;ii<nn;ii++){
-                    if(ans[ii]==ans[ii-1]){
-                        cnt+=1;
-                    }
-                    else{
-                        cnt+=1;
-                        string aa=to_string(cnt);
-                        tmp+=aa;
-                        tmp+=ans[ii-1];
-                        cnt=0;
-                    }
-                }
-                // if(ii==nn){
-                    // cout<<"aa hua";
-                        cnt+=1;
-                        string aa=to_string(cnt);
-                        tmp+=aa;
-                        tmp+=ans[nn-1];
-                      ans=tmp;
-                // }
-                       
-            }
-            
-        }
-        return ans;
+        return chk("1",1,n);
     }
 };
