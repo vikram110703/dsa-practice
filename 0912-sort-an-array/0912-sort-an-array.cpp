@@ -1,57 +1,52 @@
-class Solution
-{
-    void msort(vector<int> &v, int strt, int end, vector<int> &tmp)
-    {
-        if (strt >= end)
-            return;
-        int mid = strt + (end - strt) / 2;
-
-        msort(v, strt, mid,tmp);
-        msort(v, mid + 1, end,tmp);
-
-        int i = strt, j = mid + 1;
-       
-
-        while (i <= mid && j <= end)
-        {
-            if (v[i] <= v[j])
-            {
-                tmp.push_back(v[i]);
-                i += 1;
-            }
-            else
-            {
-                tmp.push_back(v[j]);
-                j += 1;
-            }
-        }
-
-        while (i <= mid)
-        {
-            tmp.push_back(v[i]);
-            i += 1;
-        }
-
-        while (j <= end)
-        {
-            tmp.push_back(v[j]);
-            j += 1;
-        }
-
-        for (int k = strt; k <= end; k++)
-        {
-            v[k] = tmp[k - strt];
-        }
-        tmp.clear();
-            
-    }
-
+class Solution {
 public:
-    vector<int> sortArray(vector<int> &v)
-    {
-        int strt = 0, end = v.size() - 1;
-        vector<int>tmp;
-        msort(v, strt, end,tmp);
-        return v;
+    
+    void merze(vector<int>&nums,int strt,int mid,int end){
+        vector<int>left;
+        vector<int>right;
+        for(int i=strt;i<=mid;i++){
+            left.push_back(nums[i]);
+        }
+        for(int i=mid+1;i<=end;i++){
+            right.push_back(nums[i]);
+        }
+        
+        int i=0,j=0,leftSize=left.size(),rightSize=right.size();
+        int curr=strt;//starting index merzed array
+        while(i<leftSize&&j<rightSize){
+            if(left[i]<=right[j]){
+                nums[curr]=left[i];
+                i+=1;
+            }
+            else if(right[j]<left[i]){
+                nums[curr]=right[j];
+                    j+=1;
+            }
+            curr+=1;
+        }
+        while(i<leftSize){
+            nums[curr]=left[i];
+            i+=1;curr+=1;
+        }
+        while(j<rightSize){
+            nums[curr]=right[j];
+            j+=1;curr+=1;
+        }
+        left.clear();
+        right.clear();
+    }
+    
+    
+    void merzeSort(vector<int>&nums,int strt,int end){
+        if(strt>=end)return;
+        int mid=strt+(end-strt)/2;
+        merzeSort(nums,strt,mid);
+        merzeSort(nums,mid+1,end);
+        merze(nums,strt,mid,end);
+    }
+    
+    vector<int> sortArray(vector<int>& nums) {
+       merzeSort(nums,0,nums.size()-1);
+        return nums;
     }
 };
