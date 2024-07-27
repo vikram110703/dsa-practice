@@ -1,66 +1,68 @@
-class Solution
-{
-    public:
-        int findTheCity(int n, vector<vector < int>> &edges, int distanceThreshold)
-        {
+#include <iostream>
+#include <vector>
+#include <limits>
 
-            int nn = edges.size();
-            vector<vector<pair<int, int>>> adj(n);
-            for (int i = 0; i < nn; i++)
-            {
-                adj[edges[i][0]].push_back({ edges[i][1],
-                    edges[i][2] });
-                adj[edges[i][1]].push_back({ edges[i][0],
-                    edges[i][2] });
-            }
-            vector<int> count(n, 0);
-            for(int i=0;i<n;i++)
-            {
-                
-            vector<int> dist(n, INT_MAX);
-            priority_queue<pair<int, int>, vector< pair<int, int>>, greater<pair<int, int>>> pq;
-           	// {dist,node}
-            pq.push({ 0,
-                i });
-            dist[i]=0;
-            while (!pq.empty())
-            {
-                pair<int, int> curr = pq.top();
-                pq.pop();
-                int node = curr.second, currDist = curr.first;
+using namespace std;
 
-                if (currDist > dist[node]) continue;
-                for (auto &it: adj[node])
-                {
-                    int child = it.first, wt = it.second;
-                    if (dist[child] > currDist + wt)
-                    {
-                        dist[child] = currDist + wt;
-                        pq.push({dist[child],child});
+const long long INF = 1e17;
+
+class Solution {
+public:
+    void floydWarshall(vector<vector<long long>>& dist) {
+        int n = dist.size();
+        for (int k = 0; k < n; k++) {
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    if (dist[i][k] != INF && dist[k][j] != INF) {
+                        dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j]);
                     }
                 }
             }
-                 for(int j=0;j<n;j++)
-           {
-               if(j!=i&&dist[j]<=distanceThreshold)
-               {
-                   count[i]+=1;
-               }
-           }
-            
-            }
-            
-            int val=INT_MAX,ans=0;
-            for(int i=0;i<n;i++)
-            {
-                // cout<<count[i]<<" ";
-                if(count[i]<=val)
-                {
-                    val=count[i];
-                    ans=i;
+        }
+    }
+
+    int calculateMinCity(vector<vector<long long>>& dist, int maxD) {
+        int n = dist.size();
+        int ans = -1;
+        int minCityCount = n;
+        
+        for (int i = 0; i < n; i++) {
+            int currCities = 0;
+            for (int j = 0; j < n; j++) {
+                if (i != j && dist[i][j] <= maxD) {
+                    currCities++;
                 }
             }
-          return ans;
-            
+            if (currCities <= minCityCount) {
+                ans = i;
+                minCityCount = currCities;
+            }
         }
+        
+        return ans;
+    }
+
+    int findTheCity(int n, vector<vector<int>>& edges, int maxD) {
+        vector<vector<long long>> dist(n, vector<long long>(n, INF));
+        
+        // Initialize distance array
+        for (auto &edge : edges) {
+            int u = edge[0];
+            int v = edge[1];
+            int w = edge[2];
+            dist[u][v] = w;
+            dist[v][u] = w;
+        }
+
+        // Set distance from each node to itself to 0
+        for (int i = 0; i < n; i++) {
+            dist[i][i] = 0;
+        }
+
+        // Run Floyd-Warshall algorithm
+        floydWarshall(dist);
+        
+        // Calculate and return the answer
+        return calculateMinCity(dist, maxD);
+    }
 };
