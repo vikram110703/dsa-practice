@@ -5,6 +5,7 @@
 ## Database
 |  |
 | ------- |
+| [0596-classes-more-than-5-students](https://github.com/vikram110703/dsa-practice/tree/master/0596-classes-more-than-5-students) |
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/vikram110703/dsa-practice/tree/master/1245-user-activity-for-the-past-30-days-i) |
 | [1338-queries-quality-and-percentage](https://github.com/vikram110703/dsa-practice/tree/master/1338-queries-quality-and-percentage) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/vikram110703/dsa-practice/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
