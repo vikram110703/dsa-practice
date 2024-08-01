@@ -11,18 +11,14 @@
  */
 class Solution {
 public:
-    int height(TreeNode* root){
-        if(root==NULL)return 0;
-        if(root->left==NULL&&root->right==NULL)return 1;
-        int left=0,right=0;
-        left=height(root->left);
-        right=height(root->right);
-        return 1+max(left,right);
-    }
     int maxDepth(TreeNode* root) {
-        if(root==NULL)return 0;
-        int left=height(root->left);
-        int right=height(root->right);
-        return 1+(max(left,right));
+        if(root==nullptr)return 0;
+       return dfs(root);
+    }
+    int dfs(TreeNode* node) {
+        if (node == nullptr) return 0;
+        int leftDepth = dfs(node->left);
+        int rightDepth = dfs(node->right);
+        return std::max(leftDepth, rightDepth) + 1;
     }
 };
