@@ -11,53 +11,36 @@
  */
 class Solution {
 public:
-    
-    void level(TreeNode*&root,vector<vector<int>>&ans)
-    { 
-        queue<TreeNode*> q;
-        if(root==NULL)return;
-        q.push(root);
-        q.push(NULL);
-        TreeNode* fnode;
-        bool flg=true;
-        vector<int>v;
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        return bfs(root);
+    }
+    private:
+    vector<vector<int>>bfs(TreeNode* root)
+    {
+        bool dir=true;
+        //dir : true->L to R and false: R to L
+        vector<vector<int>>ans;
+        queue<TreeNode*>q;
+        if(root==nullptr)return ans;
+        q.push(root);//L to R 
+        dir=false;// now  new node will be R to L
         while(!q.empty())
         {
-            fnode=q.front();q.pop();
-            if(fnode==NULL)
+            int size=q.size();
+            vector<int>tmp;// to store the childs of current level
+            for(int i=0;i<size;i++)
             {
-                if(flg)
-                {
-                    ans.push_back(v);
-                    v.clear();
-                }
-                else
-                {
-                    reverse(v.begin(),v.end());
-                    ans.push_back(v);
-                    v.clear();
-                }
-                flg=!flg;
-                if(!q.empty())q.push(NULL);
-            }
-            else
-            {
-                v.push_back(fnode->val);
+              TreeNode* fnode=q.front();
+              tmp.push_back(fnode->val);
+              q.pop();
                 if(fnode->left)q.push(fnode->left);
-                if(fnode->right)q.push(fnode->right);
-                
+                if(fnode->right)q.push(fnode->right); 
             }
-            
+            if(dir==true)reverse(tmp.begin(),tmp.end());
+            ans.push_back(tmp);
+            dir=!dir;//change the direction for next round
         }
-    }
-    
-    
-    
-    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-        vector<vector<int>>ans;
-        // TreeNode* tmp=root;
-        level(root,ans);
-        return ans;
         
+        return ans;
     }
 };
