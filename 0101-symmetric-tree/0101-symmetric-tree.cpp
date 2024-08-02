@@ -11,23 +11,26 @@
  */
 class Solution {
 public:
-    
-    bool chk(TreeNode* a,TreeNode* b)
-    {
-        if(a!=NULL&&b!=NULL)
-        {
-            bool cond=(a->val==b->val);
-            bool l=chk(a->left,b->right);
-            bool r=(chk(a->right,b->left));
-            if(cond==false||l==false||r==false)return false;
-            else return true;
-        }
-        else if(a!=NULL||b!=NULL)return false;
-        return true;
-    }
-    
     bool isSymmetric(TreeNode* root) {
-        return chk(root->left,root->right);
-        
+        if(root==nullptr)return true;
+       return chk(root->left,root->right);
     }
+
+private:
+   bool chk(TreeNode* a,TreeNode*b)
+    {
+        if((a==nullptr&&b!=nullptr)||(b==nullptr&&a!=nullptr))return false;
+        else if(a!=NULL||b!=NULL){
+            bool cond1=a->val==b->val;
+            bool cond2=chk(a->left,b->right);
+            bool cond3=chk(a->right,b->left);
+            if(cond1==true&&cond2==true&&cond3==true)return true;
+            else return false;
+        }
+        else// a=null : b=null
+        {
+            return true;
+        }
+    }
+
 };
