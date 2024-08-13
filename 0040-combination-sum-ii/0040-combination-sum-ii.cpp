@@ -1,28 +1,26 @@
 class Solution {
 public:
-    void solve(int ind, int sum, vector<int>& tmp, vector<int>& v,
-               set<vector<int>>& ans, set < pair<vector<int>, int>> & st) {
+    void solve(int ind, int sum, vector<int>& tmp, vector<int>& arr,
+               set<vector<int>>& ans) {
 
         if (sum < 0)
             return;
-            //check if this index and vector already visited or  not 
-        if (st.count({tmp, ind}))
-            return;
-            st.insert({tmp,ind});
-        if (ind >= v.size() || sum == 0) {
+        if (ind >= arr.size() || sum == 0) {
             if (sum == 0) {
                 ans.insert(tmp);
             }
             return;
         }
 
-        solve(ind + 1, sum, tmp, v, ans,st);
-        if (v[ind] <= sum) {
-            // take
-            tmp.push_back(v[ind]);
-            solve(ind + 1, sum - v[ind], tmp, v, ans,st);
-            tmp.pop_back(); // backTracking
-            // not take
+        solve(ind + 1, sum, tmp, arr, ans);
+        // take i freq of ind ...
+        for (int i = 1; i <= arr[ind]; i++) {
+            tmp.push_back(ind);
+            solve(ind + 1, sum -(ind*i), tmp, arr,ans);
+        }
+        // now pop_back all the pushed values
+        while (tmp.size() && tmp.back()==ind) {
+            tmp.pop_back();
         }
     }
 
@@ -31,8 +29,10 @@ public:
         vector<int> tmp;
         set<vector<int>> ans;
         sort(v.begin(), v.end());
-        set<pair<vector<int>,int>>st;
-        solve(0, target, tmp, v, ans,st);
+        vector<int> arr(51, 0);
+        for (auto& val : v)
+            arr[val] += 1;
+        solve(0, target, tmp, arr, ans);
         vector<vector<int>> res;
         for (auto& val : ans)
             res.push_back(val);
