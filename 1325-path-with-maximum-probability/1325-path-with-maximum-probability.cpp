@@ -39,10 +39,10 @@ public:
             int curr_node = pq.top().second;
             pq.pop();
 
+            if(curr_node==end)return;
+
             if (probability[curr_node] > curr_prob)
                 continue;
-
-            if(curr_node==end)return;
 
             for (auto& child : adj[curr_node]) {
                 int adj_node = child.first;
