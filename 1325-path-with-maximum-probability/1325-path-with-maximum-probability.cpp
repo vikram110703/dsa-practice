@@ -21,7 +21,7 @@ public:
         bfs(start_node, end_node);
 
         double ans = probability[end_node];
-        
+
         if (ans == -1)
             return 0;
         else
@@ -41,6 +41,8 @@ public:
 
             if (probability[curr_node] > curr_prob)
                 continue;
+
+            if(curr_node==end)return;
 
             for (auto& child : adj[curr_node]) {
                 int adj_node = child.first;
