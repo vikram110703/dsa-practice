@@ -49,6 +49,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/vikram110703/dsa-practice/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -59,6 +60,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/vikram110703/dsa-practice/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
 ## Binary Tree
 |  |
 | ------- |
@@ -101,6 +103,7 @@
 | [0735-asteroid-collision](https://github.com/vikram110703/dsa-practice/tree/master/0735-asteroid-collision) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1325-path-with-maximum-probability](https://github.com/vikram110703/dsa-practice/tree/master/1325-path-with-maximum-probability) |
+| [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
 ## Simulation
 |  |
 | ------- |
@@ -144,4 +147,9 @@
 |  |
 | ------- |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/vikram110703/dsa-practice/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
+## Matrix
+|  |
+| ------- |
+| [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
 <!---LeetCode Topics End-->
