@@ -39,6 +39,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/vikram110703/dsa-practice/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1484-linked-list-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1484-linked-list-in-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -50,6 +51,7 @@
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vikram110703/dsa-practice/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/vikram110703/dsa-practice/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1484-linked-list-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
 ## Breadth-First Search
 |  |
@@ -61,6 +63,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/vikram110703/dsa-practice/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1484-linked-list-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
 ## Binary Tree
 |  |
@@ -72,6 +75,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/vikram110703/dsa-practice/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1484-linked-list-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1484-linked-list-in-binary-tree) |
 ## Hash Table
 |  |
 | ------- |
@@ -161,5 +165,6 @@
 ## Linked List
 |  |
 | ------- |
+| [1484-linked-list-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1484-linked-list-in-binary-tree) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/vikram110703/dsa-practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 <!---LeetCode Topics End-->
