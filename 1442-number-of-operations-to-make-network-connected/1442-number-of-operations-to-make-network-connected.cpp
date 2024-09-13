@@ -1,77 +1,77 @@
 class Solution {
 public:
+
     vector<int>parent;
-    vector<int>rank;
+    vector<int>size;
 
-    void Union(int u,int v)
+    int findPar(int a)
     {
-        // finding the ultimate parent
-        int ulPar_u=findUlPar(u);
-        int ulPar_v=findUlPar(v);
+        if(a==parent[a])return a;
+        return parent[a]=findPar(parent[a]);
+    }
 
-        if(ulPar_u==ulPar_v) return ;//base case
+    void DSU(int a,int b)
+    {
+        a=findPar(a);
+        b=findPar(b);
 
-        if(rank[ulPar_u]>rank[ulPar_v])
+        if(a==b)return;
+
+        if(size[a]>=size[b])
         {
-            parent[ulPar_v]=ulPar_u;
+            parent[b]=a;
+            size[a]+=size[b];
         }
-        else if(rank[ulPar_v]>rank[ulPar_u])
+        else
         {
-            parent[ulPar_u]=ulPar_v;
-        }
-        else// same rank
-        {
-            parent[ulPar_v]=ulPar_u;
-            rank[ulPar_u]+=1;
+            parent[a]=b;
+            size[b]+=size[a];
         }
     }
 
-    int findUlPar(int u)
-    {
-        if(parent[u]==u)return u;
-
-        return parent[u]=findUlPar(parent[u]);
-    }
 
     int makeConnected(int n, vector<vector<int>>& connections) {
-        // n-> : total computers
+        parent.resize(n);
+        size.resize(n);
 
-        parent.resize(n,0);
-        rank.resize(n,0);
-
-        //initializing parent and rank
         for(int i=0;i<n;i++)
         {
-            parent[i]=i;
-            rank[i]=1;
+            parent[i]=i;//initializing 
+            size[i]=1;
         }
 
-        int available_cables=0;
+        int available_cables=0;// store the extracted cables
 
-        for(auto &adj:connections)
+        for(auto &it:connections)
         {
-            int u=findUlPar(adj[0]);
-            int v=findUlPar(adj[1]);
+            int a=findPar(it[0]);
+            int b=findPar(it[1]);
 
-            if(u==v)// already connected
-            {
-                available_cables+=1;//extract this cable
-            }
+            if(a==b)available_cables+=1;//already connected 
             else
             {
-                Union(u,v);// connect them
+                DSU(a,b);
             }
         }
-
+        
+        int req_cables=0;
         set<int>st;
 
         for(int i=0;i<n;i++)
         {
-           st.insert(findUlPar(i));
+               st.insert(findPar(i));  
         }
 
-        int totalGroups=st.size()-1;
+        req_cables=st.size()-1;
 
-        return available_cables >= totalGroups ? totalGroups : -1 ;
+        cout<<available_cables<<" "<<req_cables<<endl;
+        if(available_cables>=req_cables)
+        {
+            return req_cables;
+        }
+        else
+        {
+            return -1;
+        }
     }
 };
