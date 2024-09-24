@@ -5,6 +5,7 @@
 ## Database
 |  |
 | ------- |
+| [0197-rising-temperature](https://github.com/vikram110703/dsa-practice/tree/master/0197-rising-temperature) |
 | [0584-find-customer-referee](https://github.com/vikram110703/dsa-practice/tree/master/0584-find-customer-referee) |
 | [0596-classes-more-than-5-students](https://github.com/vikram110703/dsa-practice/tree/master/0596-classes-more-than-5-students) |
 | [0619-biggest-single-number](https://github.com/vikram110703/dsa-practice/tree/master/0619-biggest-single-number) |
