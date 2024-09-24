@@ -14,6 +14,7 @@
 | [1338-queries-quality-and-percentage](https://github.com/vikram110703/dsa-practice/tree/master/1338-queries-quality-and-percentage) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/vikram110703/dsa-practice/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/vikram110703/dsa-practice/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
+| [1801-average-time-of-process-per-machine](https://github.com/vikram110703/dsa-practice/tree/master/1801-average-time-of-process-per-machine) |
 | [1877-find-followers-count](https://github.com/vikram110703/dsa-practice/tree/master/1877-find-followers-count) |
 | [1942-primary-department-for-each-employee](https://github.com/vikram110703/dsa-practice/tree/master/1942-primary-department-for-each-employee) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/vikram110703/dsa-practice/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
