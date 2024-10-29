@@ -43,6 +43,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/vikram110703/dsa-practice/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/vikram110703/dsa-practice/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/vikram110703/dsa-practice/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Stack
 |  |
 | ------- |
@@ -154,6 +155,7 @@
 | [1694-make-sum-divisible-by-p](https://github.com/vikram110703/dsa-practice/tree/master/1694-make-sum-divisible-by-p) |
 | [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/vikram110703/dsa-practice/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/vikram110703/dsa-practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Simulation
 |  |
@@ -213,6 +215,7 @@
 | ------- |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/vikram110703/dsa-practice/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/vikram110703/dsa-practice/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Linked List
 |  |
 | ------- |
