@@ -48,6 +48,7 @@
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/vikram110703/dsa-practice/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2757-count-of-integers](https://github.com/vikram110703/dsa-practice/tree/master/2757-count-of-integers) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/vikram110703/dsa-practice/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/vikram110703/dsa-practice/tree/master/3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
 ## Stack
 |  |
 | ------- |
@@ -167,6 +168,7 @@
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/vikram110703/dsa-practice/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/vikram110703/dsa-practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/vikram110703/dsa-practice/tree/master/3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
 ## Simulation
 |  |
 | ------- |
@@ -257,6 +259,7 @@
 |  |
 | ------- |
 | [0729-my-calendar-i](https://github.com/vikram110703/dsa-practice/tree/master/0729-my-calendar-i) |
+| [3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/vikram110703/dsa-practice/tree/master/3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
 ## Ordered Set
 |  |
 | ------- |
