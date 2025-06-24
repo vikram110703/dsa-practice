@@ -168,6 +168,7 @@
 | [1946-minimum-absolute-sum-difference](https://github.com/vikram110703/dsa-practice/tree/master/1946-minimum-absolute-sum-difference) |
 | [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/vikram110703/dsa-practice/tree/master/2179-most-beautiful-item-for-each-query) |
+| [2320-find-all-k-distant-indices-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/vikram110703/dsa-practice/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/vikram110703/dsa-practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -271,6 +272,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [2320-find-all-k-distant-indices-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Topological Sort
 |  |
