@@ -5,6 +5,7 @@
 ## Database
 |  |
 | ------- |
+| [0176-second-highest-salary](https://github.com/vikram110703/dsa-practice/tree/master/0176-second-highest-salary) |
 | [0177-nth-highest-salary](https://github.com/vikram110703/dsa-practice/tree/master/0177-nth-highest-salary) |
 | [0197-rising-temperature](https://github.com/vikram110703/dsa-practice/tree/master/0197-rising-temperature) |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/vikram110703/dsa-practice/tree/master/0570-managers-with-at-least-5-direct-reports) |
