@@ -38,6 +38,7 @@
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/vikram110703/dsa-practice/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2757-count-of-integers](https://github.com/vikram110703/dsa-practice/tree/master/2757-count-of-integers) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/vikram110703/dsa-practice/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3617-find-the-original-typed-string-i](https://github.com/vikram110703/dsa-practice/tree/master/3617-find-the-original-typed-string-i) |
 ## Dynamic Programming
 |  |
 | ------- |
