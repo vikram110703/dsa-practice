@@ -156,6 +156,7 @@
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/vikram110703/dsa-practice/tree/master/0040-combination-sum-ii) |
+| [0078-subsets](https://github.com/vikram110703/dsa-practice/tree/master/0078-subsets) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
@@ -187,6 +188,7 @@
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/vikram110703/dsa-practice/tree/master/0040-combination-sum-ii) |
+| [0078-subsets](https://github.com/vikram110703/dsa-practice/tree/master/0078-subsets) |
 ## Greedy
 |  |
 | ------- |
@@ -254,6 +256,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/vikram110703/dsa-practice/tree/master/0078-subsets) |
 | [1435-xor-queries-of-a-subarray](https://github.com/vikram110703/dsa-practice/tree/master/1435-xor-queries-of-a-subarray) |
 ## Prefix Sum
 |  |
