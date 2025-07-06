@@ -1,43 +1,27 @@
 class Solution {
 public:
-    void solve(int ind,int sum,vector<int>&tmp,vector<int>&v,vector<vector<int>>&ans)
+    vector<vector<int>>ans;
+    vector<int>tmp;
+
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        solve(candidates,target,0);
+        return ans;
+    }
+
+    void solve(vector<int>& candidates, int target,int strt)
     {
-        
-        if(ind>=v.size())
-        {
-            if(sum==0){
-                auto it=find(ans.begin(),ans.end(),tmp);
-                if(it==ans.end())
-                ans.push_back(tmp);
-            }
+        if(target==0){
+            ans.push_back(tmp);
             return;
         }
-        
-        if(v[ind]<=sum){
-            //take 
-            tmp.push_back(v[ind]);
-            solve(ind+1,sum-v[ind],tmp,v,ans);
-            // take but no move
-            tmp.pop_back();
-            tmp.push_back(v[ind]);
-            solve(ind,sum-v[ind],tmp,v,ans);
-            //not take
-            tmp.pop_back();
-            solve(ind+1,sum,tmp,v,ans);
+        if(target<2 ||strt>=candidates.size())return;
+
+        for(int i=strt;i<candidates.size();i++){
+           tmp.push_back(candidates[i]);
+           solve(candidates,target-candidates[i],i);
+
+           tmp.pop_back();//not take this
         }
-        else{
-            //not Take
-            solve(ind+1,sum,tmp,v,ans);
-        }
-        
     }
-    
-    
-    vector<vector<int>> combinationSum(vector<int>& v, int target) {
-        vector<int>tmp;
-        vector<vector<int>>ans;
-        solve(0,target,tmp,v,ans);
-        return ans;
-        
-    }
+
 };
