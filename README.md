@@ -155,6 +155,7 @@
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/vikram110703/dsa-practice/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vikram110703/dsa-practice/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/vikram110703/dsa-practice/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikram110703/dsa-practice/tree/master/0090-subsets-ii) |
@@ -188,6 +189,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/vikram110703/dsa-practice/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vikram110703/dsa-practice/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/vikram110703/dsa-practice/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikram110703/dsa-practice/tree/master/0090-subsets-ii) |
