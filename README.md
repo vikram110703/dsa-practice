@@ -32,6 +32,7 @@
 ## String
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/vikram110703/dsa-practice/tree/master/0131-palindrome-partitioning) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/vikram110703/dsa-practice/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -42,6 +43,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/vikram110703/dsa-practice/tree/master/0131-palindrome-partitioning) |
 | [0264-ugly-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0264-ugly-number-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -195,6 +197,7 @@
 | [0051-n-queens](https://github.com/vikram110703/dsa-practice/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/vikram110703/dsa-practice/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikram110703/dsa-practice/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/vikram110703/dsa-practice/tree/master/0131-palindrome-partitioning) |
 ## Greedy
 |  |
 | ------- |
