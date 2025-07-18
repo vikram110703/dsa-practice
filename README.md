@@ -180,6 +180,7 @@
 | [1694-make-sum-divisible-by-p](https://github.com/vikram110703/dsa-practice/tree/master/1694-make-sum-divisible-by-p) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/vikram110703/dsa-practice/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1946-minimum-absolute-sum-difference](https://github.com/vikram110703/dsa-practice/tree/master/1946-minimum-absolute-sum-difference) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/vikram110703/dsa-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/vikram110703/dsa-practice/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2320-find-all-k-distant-indices-in-an-array) |
@@ -191,6 +192,7 @@
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/vikram110703/dsa-practice/tree/master/0735-asteroid-collision) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/vikram110703/dsa-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/vikram110703/dsa-practice/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Backtracking
 |  |
@@ -241,6 +243,7 @@
 | ------- |
 | [0264-ugly-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0264-ugly-number-ii) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/vikram110703/dsa-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2757-count-of-integers](https://github.com/vikram110703/dsa-practice/tree/master/2757-count-of-integers) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/vikram110703/dsa-practice/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Union Find
@@ -310,4 +313,12 @@
 |  |
 | ------- |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/vikram110703/dsa-practice/tree/master/1381-maximum-score-words-formed-by-letters) |
+## Recursion
+|  |
+| ------- |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/vikram110703/dsa-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
+## Queue
+|  |
+| ------- |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/vikram110703/dsa-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 <!---LeetCode Topics End-->
