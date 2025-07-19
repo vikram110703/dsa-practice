@@ -82,6 +82,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/vikram110703/dsa-practice/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/vikram110703/dsa-practice/tree/master/0207-course-schedule) |
+| [0386-lexicographical-numbers](https://github.com/vikram110703/dsa-practice/tree/master/0386-lexicographical-numbers) |
 | [0543-diameter-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vikram110703/dsa-practice/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -308,6 +309,7 @@
 ## Trie
 |  |
 | ------- |
+| [0386-lexicographical-numbers](https://github.com/vikram110703/dsa-practice/tree/master/0386-lexicographical-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/vikram110703/dsa-practice/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 ## Bitmask
 |  |
