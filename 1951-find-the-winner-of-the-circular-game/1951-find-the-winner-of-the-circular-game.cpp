@@ -1,32 +1,27 @@
 class Solution {
 public:
+
+    void calculate(int start,int n,int k,vector<int>&v){
+        //base condition 
+        if(v.size()==1){
+            return;
+        }
+        //index to be removed
+        int ind=(start+k-1)%n;
+        // cout<<start<<" "<<ind<<endl;
+        v.erase(v.begin()+ind);
+        start=(ind%n);
+
+        calculate(start,v.size(),k,v);
+    }
+
     int findTheWinner(int n, int k) {
-
-        unordered_map<int,int>mpp;
-        int curr=0;
-
-        for(int i=0;i<10000000;i++){
-            // cout<<i<<" ";
-            if(mpp.size()==n-1){
-                cout<<"found ans"<<endl;
-                break;
-            }
-            if(mpp.find(i%n)!=mpp.end())continue;
-
-            curr%=k;
-            // cout<<i%n<<" "<<curr<<endl;
-
-            if(curr+1==k){
-                mpp[i%n]=1;
-            }
-            curr+=1;
-        }
-
+        vector<int>v(n,0);
         for(int i=0;i<n;i++){
-            if(mpp.find(i)==mpp.end()){
-                return i+1;
-            }
+            v[i]=i+1;
         }
-        return 1;
+
+        calculate(0,n,k,v);
+        return v[0];
     }
 };
