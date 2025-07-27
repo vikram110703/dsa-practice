@@ -35,6 +35,7 @@
 | [0131-palindrome-partitioning](https://github.com/vikram110703/dsa-practice/tree/master/0131-palindrome-partitioning) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/vikram110703/dsa-practice/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/vikram110703/dsa-practice/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/vikram110703/dsa-practice/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/vikram110703/dsa-practice/tree/master/1756-minimum-deletions-to-make-string-balanced) |
