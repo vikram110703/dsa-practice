@@ -140,6 +140,7 @@
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1946-minimum-absolute-sum-difference](https://github.com/vikram110703/dsa-practice/tree/master/1946-minimum-absolute-sum-difference) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/vikram110703/dsa-practice/tree/master/2179-most-beautiful-item-for-each-query) |
+| [2462-find-the-k-sum-of-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2462-find-the-k-sum-of-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Design
 |  |
@@ -191,6 +192,7 @@
 | [2179-most-beautiful-item-for-each-query](https://github.com/vikram110703/dsa-practice/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2320-find-all-k-distant-indices-in-an-array) |
+| [2462-find-the-k-sum-of-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2462-find-the-k-sum-of-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/vikram110703/dsa-practice/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/vikram110703/dsa-practice/tree/master/2794-maximum-number-of-moves-in-a-grid) |
@@ -229,6 +231,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1325-path-with-maximum-probability](https://github.com/vikram110703/dsa-practice/tree/master/1325-path-with-maximum-probability) |
+| [2462-find-the-k-sum-of-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2462-find-the-k-sum-of-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Counting
 |  |
