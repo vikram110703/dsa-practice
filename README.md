@@ -141,6 +141,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
+| [1829-maximum-units-on-a-truck](https://github.com/vikram110703/dsa-practice/tree/master/1829-maximum-units-on-a-truck) |
 | [1946-minimum-absolute-sum-difference](https://github.com/vikram110703/dsa-practice/tree/master/1946-minimum-absolute-sum-difference) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/vikram110703/dsa-practice/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2462-find-the-k-sum-of-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2462-find-the-k-sum-of-an-array) |
@@ -190,6 +191,7 @@
 | [1510-find-lucky-integer-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1694-make-sum-divisible-by-p](https://github.com/vikram110703/dsa-practice/tree/master/1694-make-sum-divisible-by-p) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/vikram110703/dsa-practice/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [1829-maximum-units-on-a-truck](https://github.com/vikram110703/dsa-practice/tree/master/1829-maximum-units-on-a-truck) |
 | [1946-minimum-absolute-sum-difference](https://github.com/vikram110703/dsa-practice/tree/master/1946-minimum-absolute-sum-difference) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vikram110703/dsa-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
@@ -227,6 +229,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/vikram110703/dsa-practice/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [1829-maximum-units-on-a-truck](https://github.com/vikram110703/dsa-practice/tree/master/1829-maximum-units-on-a-truck) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Heap (Priority Queue)
 |  |
