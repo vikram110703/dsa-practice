@@ -1,17 +1,18 @@
 class Solution {
 public:
-    int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {
-        vector<pair<int,int>>vp;
-        for(int i=0;i<boxTypes.size();i++){
-            vp.push_back({boxTypes[i][1],boxTypes[i][0]});
-        }
-        sort(vp.begin(),vp.end(),greater<pair<int,int>>());
-        int ans=0;
+    static bool cmp(vector<int>&a,vector<int>&b){
+        return a[1]>b[1];
+    }
 
+    int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {
+        sort(boxTypes.begin(),boxTypes.end(),cmp);
+
+        int ans=0;
         int i=0;
-        while(truckSize>0 && i<vp.size()){
-            int avlBox=vp[i].second;
-            int perBox=vp[i].first;
+
+        while(truckSize>0 && i<boxTypes.size()){
+            int avlBox=boxTypes[i][0];
+            int perBox=boxTypes[i][1];
             if(truckSize>=avlBox){
                 truckSize-=avlBox;
                 ans+=(perBox*avlBox);
