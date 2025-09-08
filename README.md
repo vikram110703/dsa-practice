@@ -148,6 +148,7 @@
 | [0146-lru-cache](https://github.com/vikram110703/dsa-practice/tree/master/0146-lru-cache) |
 | [0173-binary-search-tree-iterator](https://github.com/vikram110703/dsa-practice/tree/master/0173-binary-search-tree-iterator) |
 | [0729-my-calendar-i](https://github.com/vikram110703/dsa-practice/tree/master/0729-my-calendar-i) |
+| [2207-sequentially-ordinal-rank-tracker](https://github.com/vikram110703/dsa-practice/tree/master/2207-sequentially-ordinal-rank-tracker) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -231,6 +232,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1325-path-with-maximum-probability](https://github.com/vikram110703/dsa-practice/tree/master/1325-path-with-maximum-probability) |
+| [2207-sequentially-ordinal-rank-tracker](https://github.com/vikram110703/dsa-practice/tree/master/2207-sequentially-ordinal-rank-tracker) |
 | [2462-find-the-k-sum-of-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2462-find-the-k-sum-of-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Counting
@@ -312,6 +314,7 @@
 | ------- |
 | [0729-my-calendar-i](https://github.com/vikram110703/dsa-practice/tree/master/0729-my-calendar-i) |
 | [1946-minimum-absolute-sum-difference](https://github.com/vikram110703/dsa-practice/tree/master/1946-minimum-absolute-sum-difference) |
+| [2207-sequentially-ordinal-rank-tracker](https://github.com/vikram110703/dsa-practice/tree/master/2207-sequentially-ordinal-rank-tracker) |
 ## Two Pointers
 |  |
 | ------- |
@@ -342,4 +345,8 @@
 |  |
 | ------- |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/vikram110703/dsa-practice/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
+## Data Stream
+|  |
+| ------- |
+| [2207-sequentially-ordinal-rank-tracker](https://github.com/vikram110703/dsa-practice/tree/master/2207-sequentially-ordinal-rank-tracker) |
 <!---LeetCode Topics End-->
