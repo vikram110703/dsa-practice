@@ -179,6 +179,7 @@
 | [0078-subsets](https://github.com/vikram110703/dsa-practice/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikram110703/dsa-practice/tree/master/0090-subsets-ii) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
+| [0283-move-zeroes](https://github.com/vikram110703/dsa-practice/tree/master/0283-move-zeroes) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
 | [0729-my-calendar-i](https://github.com/vikram110703/dsa-practice/tree/master/0729-my-calendar-i) |
@@ -329,6 +330,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0283-move-zeroes](https://github.com/vikram110703/dsa-practice/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
