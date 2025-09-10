@@ -56,6 +56,7 @@
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/vikram110703/dsa-practice/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/vikram110703/dsa-practice/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2340-total-appeal-of-a-string](https://github.com/vikram110703/dsa-practice/tree/master/2340-total-appeal-of-a-string) |
+| [2360-substring-with-largest-variance](https://github.com/vikram110703/dsa-practice/tree/master/2360-substring-with-largest-variance) |
 | [2757-count-of-integers](https://github.com/vikram110703/dsa-practice/tree/master/2757-count-of-integers) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/vikram110703/dsa-practice/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/vikram110703/dsa-practice/tree/master/3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
@@ -203,6 +204,7 @@
 | [2227-sum-of-subarray-ranges](https://github.com/vikram110703/dsa-practice/tree/master/2227-sum-of-subarray-ranges) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2320-find-all-k-distant-indices-in-an-array) |
+| [2360-substring-with-largest-variance](https://github.com/vikram110703/dsa-practice/tree/master/2360-substring-with-largest-variance) |
 | [2462-find-the-k-sum-of-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2462-find-the-k-sum-of-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/vikram110703/dsa-practice/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
