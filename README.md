@@ -370,4 +370,8 @@
 |  |
 | ------- |
 | [2227-sum-of-subarray-ranges](https://github.com/vikram110703/dsa-practice/tree/master/2227-sum-of-subarray-ranges) |
+## Enumeration
+|  |
+| ------- |
+| [1212-sequential-digits](https://github.com/vikram110703/dsa-practice/tree/master/1212-sequential-digits) |
 <!---LeetCode Topics End-->
