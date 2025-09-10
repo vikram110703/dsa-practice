@@ -86,6 +86,7 @@
 | [0101-symmetric-tree](https://github.com/vikram110703/dsa-practice/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/vikram110703/dsa-practice/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/vikram110703/dsa-practice/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/vikram110703/dsa-practice/tree/master/0207-course-schedule) |
 | [0386-lexicographical-numbers](https://github.com/vikram110703/dsa-practice/tree/master/0386-lexicographical-numbers) |
 | [0543-diameter-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0543-diameter-of-binary-tree) |
@@ -104,6 +105,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/vikram110703/dsa-practice/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/vikram110703/dsa-practice/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/vikram110703/dsa-practice/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/vikram110703/dsa-practice/tree/master/0207-course-schedule) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -180,6 +182,7 @@
 | [0078-subsets](https://github.com/vikram110703/dsa-practice/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikram110703/dsa-practice/tree/master/0090-subsets-ii) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
+| [0200-number-of-islands](https://github.com/vikram110703/dsa-practice/tree/master/0200-number-of-islands) |
 | [0283-move-zeroes](https://github.com/vikram110703/dsa-practice/tree/master/0283-move-zeroes) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
@@ -278,6 +281,7 @@
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/vikram110703/dsa-practice/tree/master/0200-number-of-islands) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vikram110703/dsa-practice/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/vikram110703/dsa-practice/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
@@ -285,6 +289,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/vikram110703/dsa-practice/tree/master/0037-sudoku-solver) |
+| [0200-number-of-islands](https://github.com/vikram110703/dsa-practice/tree/master/0200-number-of-islands) |
 | [1331-path-with-maximum-gold](https://github.com/vikram110703/dsa-practice/tree/master/1331-path-with-maximum-gold) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/vikram110703/dsa-practice/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
