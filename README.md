@@ -39,6 +39,7 @@
 | [1302-delete-characters-to-make-fancy-string](https://github.com/vikram110703/dsa-practice/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/vikram110703/dsa-practice/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/vikram110703/dsa-practice/tree/master/1381-maximum-score-words-formed-by-letters) |
+| [1397-search-suggestions-system](https://github.com/vikram110703/dsa-practice/tree/master/1397-search-suggestions-system) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/vikram110703/dsa-practice/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2340-total-appeal-of-a-string](https://github.com/vikram110703/dsa-practice/tree/master/2340-total-appeal-of-a-string) |
 | [2757-count-of-integers](https://github.com/vikram110703/dsa-practice/tree/master/2757-count-of-integers) |
@@ -148,6 +149,7 @@
 | [0974-reorder-data-in-log-files](https://github.com/vikram110703/dsa-practice/tree/master/0974-reorder-data-in-log-files) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
+| [1397-search-suggestions-system](https://github.com/vikram110703/dsa-practice/tree/master/1397-search-suggestions-system) |
 | [1829-maximum-units-on-a-truck](https://github.com/vikram110703/dsa-practice/tree/master/1829-maximum-units-on-a-truck) |
 | [1946-minimum-absolute-sum-difference](https://github.com/vikram110703/dsa-practice/tree/master/1946-minimum-absolute-sum-difference) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/vikram110703/dsa-practice/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -166,6 +168,7 @@
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/vikram110703/dsa-practice/tree/master/0173-binary-search-tree-iterator) |
 | [0729-my-calendar-i](https://github.com/vikram110703/dsa-practice/tree/master/0729-my-calendar-i) |
+| [1397-search-suggestions-system](https://github.com/vikram110703/dsa-practice/tree/master/1397-search-suggestions-system) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/vikram110703/dsa-practice/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1946-minimum-absolute-sum-difference](https://github.com/vikram110703/dsa-practice/tree/master/1946-minimum-absolute-sum-difference) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/vikram110703/dsa-practice/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -197,6 +200,7 @@
 | [1331-path-with-maximum-gold](https://github.com/vikram110703/dsa-practice/tree/master/1331-path-with-maximum-gold) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/vikram110703/dsa-practice/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/vikram110703/dsa-practice/tree/master/1381-maximum-score-words-formed-by-letters) |
+| [1397-search-suggestions-system](https://github.com/vikram110703/dsa-practice/tree/master/1397-search-suggestions-system) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/vikram110703/dsa-practice/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1435-xor-queries-of-a-subarray](https://github.com/vikram110703/dsa-practice/tree/master/1435-xor-queries-of-a-subarray) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/1510-find-lucky-integer-in-an-array) |
@@ -252,6 +256,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1325-path-with-maximum-probability](https://github.com/vikram110703/dsa-practice/tree/master/1325-path-with-maximum-probability) |
+| [1397-search-suggestions-system](https://github.com/vikram110703/dsa-practice/tree/master/1397-search-suggestions-system) |
 | [2207-sequentially-ordinal-rank-tracker](https://github.com/vikram110703/dsa-practice/tree/master/2207-sequentially-ordinal-rank-tracker) |
 | [2462-find-the-k-sum-of-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2462-find-the-k-sum-of-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -353,6 +358,7 @@
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/vikram110703/dsa-practice/tree/master/0386-lexicographical-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/vikram110703/dsa-practice/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1397-search-suggestions-system](https://github.com/vikram110703/dsa-practice/tree/master/1397-search-suggestions-system) |
 ## Bitmask
 |  |
 | ------- |
