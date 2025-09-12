@@ -35,6 +35,7 @@
 | [0131-palindrome-partitioning](https://github.com/vikram110703/dsa-practice/tree/master/0131-palindrome-partitioning) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
+| [0974-reorder-data-in-log-files](https://github.com/vikram110703/dsa-practice/tree/master/0974-reorder-data-in-log-files) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/vikram110703/dsa-practice/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/vikram110703/dsa-practice/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/vikram110703/dsa-practice/tree/master/1381-maximum-score-words-formed-by-letters) |
@@ -144,6 +145,7 @@
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
+| [0974-reorder-data-in-log-files](https://github.com/vikram110703/dsa-practice/tree/master/0974-reorder-data-in-log-files) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1829-maximum-units-on-a-truck](https://github.com/vikram110703/dsa-practice/tree/master/1829-maximum-units-on-a-truck) |
@@ -188,6 +190,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
 | [0729-my-calendar-i](https://github.com/vikram110703/dsa-practice/tree/master/0729-my-calendar-i) |
 | [0735-asteroid-collision](https://github.com/vikram110703/dsa-practice/tree/master/0735-asteroid-collision) |
+| [0974-reorder-data-in-log-files](https://github.com/vikram110703/dsa-practice/tree/master/0974-reorder-data-in-log-files) |
 | [0993-tallest-billboard](https://github.com/vikram110703/dsa-practice/tree/master/0993-tallest-billboard) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1325-path-with-maximum-probability](https://github.com/vikram110703/dsa-practice/tree/master/1325-path-with-maximum-probability) |
