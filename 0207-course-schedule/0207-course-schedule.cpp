@@ -25,8 +25,8 @@ public:
         vector<vector<int>>adj(n);
         vector<int>inDeg(n,0);
         for(int i=0;i<preq.size();i++){
-           int u=preq[i][0];
-           int v=preq[i][1];
+           int u=preq[i][1];
+           int v=preq[i][0];
             adj[u].push_back(v);
             inDeg[v]+=1;
         }
