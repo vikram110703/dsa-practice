@@ -148,6 +148,7 @@
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
 | [0974-reorder-data-in-log-files](https://github.com/vikram110703/dsa-practice/tree/master/0974-reorder-data-in-log-files) |
+| [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1397-search-suggestions-system](https://github.com/vikram110703/dsa-practice/tree/master/1397-search-suggestions-system) |
@@ -196,6 +197,7 @@
 | [0735-asteroid-collision](https://github.com/vikram110703/dsa-practice/tree/master/0735-asteroid-collision) |
 | [0974-reorder-data-in-log-files](https://github.com/vikram110703/dsa-practice/tree/master/0974-reorder-data-in-log-files) |
 | [0993-tallest-billboard](https://github.com/vikram110703/dsa-practice/tree/master/0993-tallest-billboard) |
+| [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1325-path-with-maximum-probability](https://github.com/vikram110703/dsa-practice/tree/master/1325-path-with-maximum-probability) |
 | [1331-path-with-maximum-gold](https://github.com/vikram110703/dsa-practice/tree/master/1331-path-with-maximum-gold) |
@@ -256,6 +258,7 @@
 | [0264-ugly-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0264-ugly-number-ii) |
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1325-path-with-maximum-probability](https://github.com/vikram110703/dsa-practice/tree/master/1325-path-with-maximum-probability) |
 | [1397-search-suggestions-system](https://github.com/vikram110703/dsa-practice/tree/master/1397-search-suggestions-system) |
@@ -285,6 +288,7 @@
 | ------- |
 | [0264-ugly-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0264-ugly-number-ii) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
+| [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vikram110703/dsa-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2757-count-of-integers](https://github.com/vikram110703/dsa-practice/tree/master/2757-count-of-integers) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/vikram110703/dsa-practice/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
@@ -390,4 +394,16 @@
 |  |
 | ------- |
 | [1212-sequential-digits](https://github.com/vikram110703/dsa-practice/tree/master/1212-sequential-digits) |
+## Divide and Conquer
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
