@@ -15,6 +15,8 @@ public:
             if(s[i]=='1')one+=1;
             else zero+=1;
         }
+        if(abs(one-zero)>1)return -1;// not possble
+        //101010101... or 01010101.... only two possible arrangment
         string op="",opp="";
         o=one,z=zero;
         while(o>0 || z>0){
