@@ -233,6 +233,7 @@
 | [0735-asteroid-collision](https://github.com/vikram110703/dsa-practice/tree/master/0735-asteroid-collision) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vikram110703/dsa-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/vikram110703/dsa-practice/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3336-water-bottles-ii](https://github.com/vikram110703/dsa-practice/tree/master/3336-water-bottles-ii) |
 ## Backtracking
 |  |
 | ------- |
@@ -295,6 +296,7 @@
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vikram110703/dsa-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2757-count-of-integers](https://github.com/vikram110703/dsa-practice/tree/master/2757-count-of-integers) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/vikram110703/dsa-practice/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3336-water-bottles-ii](https://github.com/vikram110703/dsa-practice/tree/master/3336-water-bottles-ii) |
 ## Union Find
 |  |
 | ------- |
