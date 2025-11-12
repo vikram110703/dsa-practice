@@ -35,6 +35,7 @@
 | [0131-palindrome-partitioning](https://github.com/vikram110703/dsa-practice/tree/master/0131-palindrome-partitioning) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
+| [0778-reorganize-string](https://github.com/vikram110703/dsa-practice/tree/master/0778-reorganize-string) |
 | [0974-reorder-data-in-log-files](https://github.com/vikram110703/dsa-practice/tree/master/0974-reorder-data-in-log-files) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/vikram110703/dsa-practice/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/vikram110703/dsa-practice/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -134,6 +135,7 @@
 | [0037-sudoku-solver](https://github.com/vikram110703/dsa-practice/tree/master/0037-sudoku-solver) |
 | [0146-lru-cache](https://github.com/vikram110703/dsa-practice/tree/master/0146-lru-cache) |
 | [0264-ugly-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0264-ugly-number-ii) |
+| [0778-reorganize-string](https://github.com/vikram110703/dsa-practice/tree/master/0778-reorganize-string) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vikram110703/dsa-practice/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
@@ -148,6 +150,7 @@
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
+| [0778-reorganize-string](https://github.com/vikram110703/dsa-practice/tree/master/0778-reorganize-string) |
 | [0974-reorder-data-in-log-files](https://github.com/vikram110703/dsa-practice/tree/master/0974-reorder-data-in-log-files) |
 | [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -251,6 +254,7 @@
 | ------- |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
+| [0778-reorganize-string](https://github.com/vikram110703/dsa-practice/tree/master/0778-reorganize-string) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/vikram110703/dsa-practice/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1829-maximum-units-on-a-truck](https://github.com/vikram110703/dsa-practice/tree/master/1829-maximum-units-on-a-truck) |
@@ -261,6 +265,7 @@
 | ------- |
 | [0264-ugly-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0264-ugly-number-ii) |
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
+| [0778-reorganize-string](https://github.com/vikram110703/dsa-practice/tree/master/0778-reorganize-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
@@ -272,6 +277,7 @@
 ## Counting
 |  |
 | ------- |
+| [0778-reorganize-string](https://github.com/vikram110703/dsa-practice/tree/master/0778-reorganize-string) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/1510-find-lucky-integer-in-an-array) |
 ## Graph
