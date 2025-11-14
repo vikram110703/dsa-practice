@@ -44,6 +44,7 @@
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/vikram110703/dsa-practice/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1994-minimum-number-of-swaps-to-make-the-binary-string-alternating](https://github.com/vikram110703/dsa-practice/tree/master/1994-minimum-number-of-swaps-to-make-the-binary-string-alternating) |
 | [2165-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2165-plates-between-candles) |
+| [2325-number-of-ways-to-select-buildings](https://github.com/vikram110703/dsa-practice/tree/master/2325-number-of-ways-to-select-buildings) |
 | [2340-total-appeal-of-a-string](https://github.com/vikram110703/dsa-practice/tree/master/2340-total-appeal-of-a-string) |
 | [2757-count-of-integers](https://github.com/vikram110703/dsa-practice/tree/master/2757-count-of-integers) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/vikram110703/dsa-practice/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -60,6 +61,7 @@
 | [1402-count-square-submatrices-with-all-ones](https://github.com/vikram110703/dsa-practice/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/vikram110703/dsa-practice/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/vikram110703/dsa-practice/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [2325-number-of-ways-to-select-buildings](https://github.com/vikram110703/dsa-practice/tree/master/2325-number-of-ways-to-select-buildings) |
 | [2340-total-appeal-of-a-string](https://github.com/vikram110703/dsa-practice/tree/master/2340-total-appeal-of-a-string) |
 | [2360-substring-with-largest-variance](https://github.com/vikram110703/dsa-practice/tree/master/2360-substring-with-largest-variance) |
 | [2757-count-of-integers](https://github.com/vikram110703/dsa-practice/tree/master/2757-count-of-integers) |
@@ -349,6 +351,7 @@
 | [1435-xor-queries-of-a-subarray](https://github.com/vikram110703/dsa-practice/tree/master/1435-xor-queries-of-a-subarray) |
 | [1694-make-sum-divisible-by-p](https://github.com/vikram110703/dsa-practice/tree/master/1694-make-sum-divisible-by-p) |
 | [2165-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2165-plates-between-candles) |
+| [2325-number-of-ways-to-select-buildings](https://github.com/vikram110703/dsa-practice/tree/master/2325-number-of-ways-to-select-buildings) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Doubly-Linked List
 |  |
