@@ -202,6 +202,7 @@
 ## Array
 |  |
 | ------- |
+| [0027-remove-element](https://github.com/vikram110703/dsa-practice/tree/master/0027-remove-element) |
 | [0037-sudoku-solver](https://github.com/vikram110703/dsa-practice/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/vikram110703/dsa-practice/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vikram110703/dsa-practice/tree/master/0040-combination-sum-ii) |
@@ -393,6 +394,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0027-remove-element](https://github.com/vikram110703/dsa-practice/tree/master/0027-remove-element) |
 | [0283-move-zeroes](https://github.com/vikram110703/dsa-practice/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/2320-find-all-k-distant-indices-in-an-array) |
