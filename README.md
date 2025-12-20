@@ -52,6 +52,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/vikram110703/dsa-practice/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/vikram110703/dsa-practice/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vikram110703/dsa-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikram110703/dsa-practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -201,6 +202,7 @@
 | [0037-sudoku-solver](https://github.com/vikram110703/dsa-practice/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/vikram110703/dsa-practice/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vikram110703/dsa-practice/tree/master/0040-combination-sum-ii) |
+| [0045-jump-game-ii](https://github.com/vikram110703/dsa-practice/tree/master/0045-jump-game-ii) |
 | [0051-n-queens](https://github.com/vikram110703/dsa-practice/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/vikram110703/dsa-practice/tree/master/0055-jump-game) |
 | [0078-subsets](https://github.com/vikram110703/dsa-practice/tree/master/0078-subsets) |
@@ -267,6 +269,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/vikram110703/dsa-practice/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/vikram110703/dsa-practice/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikram110703/dsa-practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
