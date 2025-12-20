@@ -215,6 +215,7 @@
 | [0134-gas-station](https://github.com/vikram110703/dsa-practice/tree/master/0134-gas-station) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/vikram110703/dsa-practice/tree/master/0200-number-of-islands) |
+| [0238-product-of-array-except-self](https://github.com/vikram110703/dsa-practice/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/vikram110703/dsa-practice/tree/master/0283-move-zeroes) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
@@ -366,6 +367,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/vikram110703/dsa-practice/tree/master/0238-product-of-array-except-self) |
 | [1435-xor-queries-of-a-subarray](https://github.com/vikram110703/dsa-practice/tree/master/1435-xor-queries-of-a-subarray) |
 | [1694-make-sum-divisible-by-p](https://github.com/vikram110703/dsa-practice/tree/master/1694-make-sum-divisible-by-p) |
 | [2165-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2165-plates-between-candles) |
