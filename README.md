@@ -161,6 +161,7 @@
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
+| [0274-h-index](https://github.com/vikram110703/dsa-practice/tree/master/0274-h-index) |
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
@@ -216,6 +217,7 @@
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/vikram110703/dsa-practice/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/vikram110703/dsa-practice/tree/master/0238-product-of-array-except-self) |
+| [0274-h-index](https://github.com/vikram110703/dsa-practice/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/vikram110703/dsa-practice/tree/master/0283-move-zeroes) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
@@ -446,4 +448,8 @@
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/vikram110703/dsa-practice/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
