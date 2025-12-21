@@ -362,6 +362,7 @@
 | [0002-add-two-numbers](https://github.com/vikram110703/dsa-practice/tree/master/0002-add-two-numbers) |
 | [0141-linked-list-cycle](https://github.com/vikram110703/dsa-practice/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/vikram110703/dsa-practice/tree/master/0146-lru-cache) |
+| [0206-reverse-linked-list](https://github.com/vikram110703/dsa-practice/tree/master/0206-reverse-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1484-linked-list-in-binary-tree) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/vikram110703/dsa-practice/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/vikram110703/dsa-practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -429,6 +430,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/vikram110703/dsa-practice/tree/master/0002-add-two-numbers) |
+| [0206-reverse-linked-list](https://github.com/vikram110703/dsa-practice/tree/master/0206-reverse-linked-list) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vikram110703/dsa-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
