@@ -360,6 +360,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/vikram110703/dsa-practice/tree/master/0002-add-two-numbers) |
+| [0092-reverse-linked-list-ii](https://github.com/vikram110703/dsa-practice/tree/master/0092-reverse-linked-list-ii) |
 | [0141-linked-list-cycle](https://github.com/vikram110703/dsa-practice/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/vikram110703/dsa-practice/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/vikram110703/dsa-practice/tree/master/0206-reverse-linked-list) |
