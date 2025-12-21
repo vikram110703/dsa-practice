@@ -162,6 +162,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/vikram110703/dsa-practice/tree/master/0056-merge-intervals) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
 | [0274-h-index](https://github.com/vikram110703/dsa-practice/tree/master/0274-h-index) |
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
@@ -212,6 +213,7 @@
 | [0045-jump-game-ii](https://github.com/vikram110703/dsa-practice/tree/master/0045-jump-game-ii) |
 | [0051-n-queens](https://github.com/vikram110703/dsa-practice/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/vikram110703/dsa-practice/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/vikram110703/dsa-practice/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/vikram110703/dsa-practice/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikram110703/dsa-practice/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vikram110703/dsa-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
