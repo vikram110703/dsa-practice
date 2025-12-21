@@ -1,25 +1,27 @@
-class Solution
-{
-    public:
-        int lengthOfLongestSubstring(string s)
-        {
-            int n = s.size();
-            map<char, int> mpp, tmp;
-            int ans = 0;
-            int maxi = 0;
-            for (int i = 0; i < n; i++)
-            {
-                maxi = 0;
-                for (int j = i; j < n; j++)
-                {
-                   
-                    mpp[s[j]] += 1;
-                     if (mpp[s[j]] > 1) break;
-                    maxi += 1;
-                }
-                ans = max(ans, maxi);
-                mpp=tmp;
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        int n=s.size();
+        unordered_map<char,int>freq;
+        int maxi=0,currMax=0;
+        int i=0,j=0;
+        while(i<=j && j<n){
+            if(freq[s[j]]==0){
+                freq[s[j]]++;
+                j+=1;
+                maxi=max(maxi,j-i);
             }
-            return ans;
+            else{
+                // this curr char is already present
+                maxi=max(maxi,j-i);
+                while(i<j && freq[s[j]]>0){
+                    freq[s[i]]--;
+                    i++;
+                }
+                freq[s[j]]++;
+                j++;
+            }
         }
+        return maxi;
+    }
 };
