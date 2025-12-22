@@ -88,6 +88,7 @@
 | [0101-symmetric-tree](https://github.com/vikram110703/dsa-practice/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/vikram110703/dsa-practice/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikram110703/dsa-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/vikram110703/dsa-practice/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/vikram110703/dsa-practice/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0226-invert-binary-tree) |
@@ -143,6 +144,7 @@
 | [0101-symmetric-tree](https://github.com/vikram110703/dsa-practice/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/vikram110703/dsa-practice/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikram110703/dsa-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/vikram110703/dsa-practice/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/vikram110703/dsa-practice/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0226-invert-binary-tree) |
@@ -156,6 +158,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vikram110703/dsa-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0037-sudoku-solver](https://github.com/vikram110703/dsa-practice/tree/master/0037-sudoku-solver) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikram110703/dsa-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0141-linked-list-cycle](https://github.com/vikram110703/dsa-practice/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/vikram110703/dsa-practice/tree/master/0146-lru-cache) |
 | [0264-ugly-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0264-ugly-number-ii) |
@@ -225,6 +228,7 @@
 | [0056-merge-intervals](https://github.com/vikram110703/dsa-practice/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/vikram110703/dsa-practice/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikram110703/dsa-practice/tree/master/0090-subsets-ii) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikram110703/dsa-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vikram110703/dsa-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikram110703/dsa-practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/vikram110703/dsa-practice/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -466,6 +470,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikram110703/dsa-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
 |  |
