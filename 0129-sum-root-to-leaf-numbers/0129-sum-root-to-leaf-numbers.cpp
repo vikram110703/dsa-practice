@@ -10,28 +10,26 @@
  * };
  */
 class Solution {
-public:    
-    
-    void leafSum(TreeNode* root,string s,int &ans)
-    {
-        if(root==NULL)return ;
-        if(root->left==NULL&& root->right==NULL)
-        {
-            char a=root->val+'0';
-            s+=a;
-            // cout<<s<<" ";
-            ans+=(stoi(s));
-            return ;
-        }
-        s+=(root->val+'0');
-        leafSum(root->left,s,ans);
-        string ss=s;// for right traversal
-        leafSum(root->right,ss,ans);
+public:
+    int addNum(int a,string b){
+       if(b==""|| b[0]==' ')return 0;
+       return a+stoi(b);
     }
+    void dfs(TreeNode* root,string s,int &ans){
+        if(root==NULL) return;
+        s+=to_string(root->val);
+        if(root->left==NULL && root->right==NULL){
+            ans=addNum(ans,s);
+            return;
+        }
+        dfs(root->left,s,ans);
+        dfs(root->right,s,ans);
+    }
+
     int sumNumbers(TreeNode* root) {
+        if(root==NULL)return 0;
         int ans=0;
-        string s="";
-        leafSum(root,s,ans);
+        dfs(root,"",ans);
         return ans;
     }
 };
