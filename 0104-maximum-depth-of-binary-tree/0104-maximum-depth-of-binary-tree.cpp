@@ -12,13 +12,12 @@
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
-        if(root==nullptr)return 0;
        return dfs(root);
     }
     int dfs(TreeNode* node) {
-        if (node == nullptr) return 0;
-        int leftDepth = dfs(node->left);
-        int rightDepth = dfs(node->right);
-        return std::max(leftDepth, rightDepth) + 1;
+       if(node==NULL)return 0;
+       int leftDepth= 1+dfs(node->left);
+       int rightDepth= 1+dfs(node->right);
+       return max(leftDepth,rightDepth);
     }
 };
