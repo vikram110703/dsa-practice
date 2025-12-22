@@ -10,23 +10,17 @@
  * };
  */
 class Solution {
-    
-    void change(TreeNode* tmp)
-    {
-        if(tmp==NULL)return;
-        TreeNode* left=tmp->left;
-         TreeNode* right=tmp->right;
-        tmp->left=right;
-        tmp->right=left;
-       if(tmp->left) change(tmp->left);
-        if(tmp->right)change(tmp->right);
-    }
-    
 public:
+    void dfs(TreeNode* root){
+        if(root==NULL || (root->left==NULL && root->right==NULL))return;
+        // if(root->left==NULL || root->right==NULL) return ;
+        swap(root->left,root->right);
+        dfs(root->left);
+        dfs(root->right);
+    }
+
     TreeNode* invertTree(TreeNode* root) {
-        TreeNode* tmp=root;
-        change(tmp);
+        dfs(root);
         return root;
-        
     }
 };
