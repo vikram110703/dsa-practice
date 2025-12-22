@@ -19,18 +19,15 @@ public:
 private:
    bool chk(TreeNode* a,TreeNode*b)
     {
-        if((a==nullptr&&b!=nullptr)||(b==nullptr&&a!=nullptr))return false;
-        else if(a!=NULL||b!=NULL){
-            bool cond1=a->val==b->val;
-            bool cond2=chk(a->left,b->right);
-            bool cond3=chk(a->right,b->left);
-            if(cond1==true&&cond2==true&&cond3==true)return true;
-            else return false;
-        }
-        else// a=null : b=null
-        {
-            return true;
-        }
+        if(a==NULL && b==NULL)return true;
+        if((a==NULL && b!=NULL) || (a!=NULL && b==NULL))return false;
+        if(a->val!=b->val)return false;
+
+        //both are not null
+        bool op1=chk(a->left,b->right);
+        bool op2=chk(a->right,b->left);
+
+        return (op1 && op2);
     }
 
 };
