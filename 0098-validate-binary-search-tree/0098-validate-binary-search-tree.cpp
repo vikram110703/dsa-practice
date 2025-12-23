@@ -17,7 +17,7 @@ class Solution
         {
             if (root == NULL) return true;
             long long  rootData = (root->val*1ll);
-            bool cond=(rootData>mini&&rootData<maxi);
+            bool cond=(rootData>mini && rootData<maxi);
             bool left=chk(root->left,mini,rootData);
             bool right=chk(root->right,rootData,maxi);
             if(cond&&left&&right)return true;
@@ -29,6 +29,6 @@ class Solution
     {
         // cout<<INT_MIN<<" "<<INT_MAX<<endl;
         // [2147483647]
-            return chk(root,-1*10000000000,10000000000);
-    }
+            return chk(root,LONG_MIN,LONG_MAX);
+    } 
 };
