@@ -4,6 +4,7 @@ public:
     vector<int>tmp;
 
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        sort(candidates.begin(),candidates.end());
         solve(candidates,target,0);
         return ans;
     }
@@ -14,14 +15,14 @@ public:
             ans.push_back(tmp);
             return;
         }
-        if(target<2 ||strt>=candidates.size())return;
+        if(target<2 || strt>=candidates.size()||target <candidates[strt])return;
 
-        for(int i=strt;i<candidates.size();i++){
-           tmp.push_back(candidates[i]);
-           solve(candidates,target-candidates[i],i);
+           tmp.push_back(candidates[strt]);
+           solve(candidates,target-candidates[strt],strt);
 
-           tmp.pop_back();//not take this
-        }
+           tmp.pop_back();
+           //not take this
+           solve(candidates,target,strt+1);
     }
 
 };
