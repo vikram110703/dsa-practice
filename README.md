@@ -97,6 +97,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/vikram110703/dsa-practice/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/vikram110703/dsa-practice/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/vikram110703/dsa-practice/tree/master/0988-flip-equivalent-binary-trees) |
@@ -117,6 +118,7 @@
 | [0226-invert-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/vikram110703/dsa-practice/tree/master/0386-lexicographical-numbers) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/vikram110703/dsa-practice/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -139,6 +141,7 @@
 | [0200-number-of-islands](https://github.com/vikram110703/dsa-practice/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/vikram110703/dsa-practice/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0226-invert-binary-tree) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/vikram110703/dsa-practice/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -161,6 +164,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/vikram110703/dsa-practice/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/vikram110703/dsa-practice/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/vikram110703/dsa-practice/tree/master/0988-flip-equivalent-binary-trees) |
@@ -218,6 +222,7 @@
 | [0098-validate-binary-search-tree](https://github.com/vikram110703/dsa-practice/tree/master/0098-validate-binary-search-tree) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikram110703/dsa-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0173-binary-search-tree-iterator](https://github.com/vikram110703/dsa-practice/tree/master/0173-binary-search-tree-iterator) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/vikram110703/dsa-practice/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0729-my-calendar-i](https://github.com/vikram110703/dsa-practice/tree/master/0729-my-calendar-i) |
 | [1397-search-suggestions-system](https://github.com/vikram110703/dsa-practice/tree/master/1397-search-suggestions-system) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/vikram110703/dsa-practice/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
