@@ -85,6 +85,7 @@
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/vikram110703/dsa-practice/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/vikram110703/dsa-practice/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/vikram110703/dsa-practice/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/vikram110703/dsa-practice/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
@@ -104,6 +105,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/vikram110703/dsa-practice/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/vikram110703/dsa-practice/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/vikram110703/dsa-practice/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -147,6 +149,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/vikram110703/dsa-practice/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/vikram110703/dsa-practice/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/vikram110703/dsa-practice/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/vikram110703/dsa-practice/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
@@ -212,6 +215,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/vikram110703/dsa-practice/tree/master/0098-validate-binary-search-tree) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikram110703/dsa-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0173-binary-search-tree-iterator](https://github.com/vikram110703/dsa-practice/tree/master/0173-binary-search-tree-iterator) |
 | [0729-my-calendar-i](https://github.com/vikram110703/dsa-practice/tree/master/0729-my-calendar-i) |
