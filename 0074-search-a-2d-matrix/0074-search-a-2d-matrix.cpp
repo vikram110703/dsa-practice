@@ -1,63 +1,34 @@
-class Solution
-{
-    public:
+class Solution {
+public:
+    int findRow(int start,int end,vector<vector<int>>& matrix, int target){
+        int m=matrix[0].size();
+        while(end-start>1){
+            int mid=start+(end-start)/2;
+            if(matrix[mid][m-1]>=target){
+                end=mid;
+            }
+            else start=mid+1;
+        }
+        return matrix[start][m-1]>=target?start:end;
+    }
 
-        void search(vector<vector < int>> &matrix, int &strt, int &end, int mid, int ind,int target)
-        {
-            while (end - strt > 1)
-            {
-                mid = strt + (end - strt) / 2;
-                if (matrix[ind][mid] > target)
-                {
-                    end = mid - 1;
-                }
-                else	//<=target
-                {
-                    strt = mid;
-                }
+    bool findValue(int row,int start,int end,vector<vector<int>>& matrix, int target){
+        while(end-start>1){
+            int mid=start+(end-start)/2;
+            if(matrix[row][mid]>=target){
+                end=mid;
             }
+            else start=mid+1;
         }
+        if(matrix[row][start]==target)return true;
+        if(matrix[row][end]==target)return true;
+        return false;
+    }
 
-    bool searchMatrix(vector<vector < int>> &matrix, int target)
-    {
-        int n=matrix.size(), m = matrix[0].size();
-        int strt = 0, end = n - 1, mid;
-       	// find the row
-        while (end - strt > 1)
-        {
-            mid = strt + (end - strt) / 2;
-            if (matrix[mid][0] > target)
-            {
-                end = mid - 1;
-            }
-            else	//<=target
-            {
-                strt = mid;
-            }
-        }
-       	// chk for the row
-        if (matrix[strt][0] <= target && matrix[strt][m - 1] >= target)
-        {
-            // cout<<strt<<endl;
-            int ind = strt;
-            strt = 0, end = m - 1, mid = 0;
-            search(matrix, strt, end, mid, ind,target);
-           	// chk in the column
-            if (matrix[ind][strt] == target) return true;
-            if (matrix[ind][end] == target) return true;
-            return false;
-        }
-        else if (matrix[end][0] <= target && matrix[end][m - 1] >= target)
-        {
-            // cout<<end<<endl;
-            int ind = end;
-            strt = 0, end = m - 1, mid = 0;
-            search(matrix, strt, end, mid, ind,target);
-           	// chk in the column
-            if (matrix[ind][strt] == target) return true;
-            if (matrix[ind][end] == target) return true;
-            return false;
-        }
-        else return false;
+    bool searchMatrix(vector<vector<int>>& matrix, int target) {
+        int n=matrix.size(),m=matrix[0].size();
+
+        int row=findRow(0,n-1,matrix,target);
+        return findValue(row,0,m-1,matrix,target);
     }
 };
