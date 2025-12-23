@@ -11,29 +11,20 @@
  */
 class Solution {
 public:
-    void inOrder(TreeNode* root,vector<int>&inOrderNodes)
-    {
+    void inorder(TreeNode* root,int &mini,int &pre){
         if(root==NULL)return;
-        inOrder(root->left,inOrderNodes);
-        inOrderNodes.push_back(root->val);
-        //right call
-        inOrder(root->right,inOrderNodes);
+        inorder(root->left,mini,pre);
+        mini=min(mini,abs(root->val-pre));
+        pre=root->val;
+        inorder(root->right,mini,pre);
     }
-    
+
     int getMinimumDifference(TreeNode* root) {
-        
         int mini=INT_MAX;
-        vector<int>inOrderNodes;
-        
-        inOrder(root,inOrderNodes);
-        //inOrder is sorted in bst
-        for(int i=1;i<inOrderNodes.size();i++)
-        {
-            mini=min(mini,inOrderNodes[i]-inOrderNodes[i-1]);
-        }
+        int pre=INT_MAX;
+        inorder(root,mini,pre);
         return mini;
-        
-        
-        
     }
 };
+
+//in-order : left-root-right
