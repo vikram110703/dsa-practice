@@ -17,8 +17,8 @@ public:
             }
             else{
                 if(md>nums[mid-1]&&md>nums[mid+1])return mid;
-                else if(nums[mid+1]>md)strt=mid+1;
-                else end=mid;
+                else if(nums[mid-1]>md)end=mid-1;
+                else strt=mid;
             }
         }
         if(nums[strt]>nums[end])return strt;
