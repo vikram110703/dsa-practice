@@ -269,6 +269,7 @@
 | [0238-product-of-array-except-self](https://github.com/vikram110703/dsa-practice/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/vikram110703/dsa-practice/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/vikram110703/dsa-practice/tree/master/0283-move-zeroes) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/vikram110703/dsa-practice/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/vikram110703/dsa-practice/tree/master/0502-ipo) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
@@ -348,6 +349,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0264-ugly-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0264-ugly-number-ii) |
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/vikram110703/dsa-practice/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/vikram110703/dsa-practice/tree/master/0502-ipo) |
 | [0778-reorganize-string](https://github.com/vikram110703/dsa-practice/tree/master/0778-reorganize-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
