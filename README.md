@@ -222,6 +222,7 @@
 | [0035-search-insert-position](https://github.com/vikram110703/dsa-practice/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/vikram110703/dsa-practice/tree/master/0074-search-a-2d-matrix) |
 | [0098-validate-binary-search-tree](https://github.com/vikram110703/dsa-practice/tree/master/0098-validate-binary-search-tree) |
+| [0162-find-peak-element](https://github.com/vikram110703/dsa-practice/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikram110703/dsa-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0173-binary-search-tree-iterator](https://github.com/vikram110703/dsa-practice/tree/master/0173-binary-search-tree-iterator) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vikram110703/dsa-practice/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -256,6 +257,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikram110703/dsa-practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/vikram110703/dsa-practice/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0134-gas-station](https://github.com/vikram110703/dsa-practice/tree/master/0134-gas-station) |
+| [0162-find-peak-element](https://github.com/vikram110703/dsa-practice/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikram110703/dsa-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/vikram110703/dsa-practice/tree/master/0200-number-of-islands) |
