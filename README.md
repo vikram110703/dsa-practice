@@ -261,6 +261,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikram110703/dsa-practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/vikram110703/dsa-practice/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0134-gas-station](https://github.com/vikram110703/dsa-practice/tree/master/0134-gas-station) |
+| [0137-single-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0137-single-number-ii) |
 | [0162-find-peak-element](https://github.com/vikram110703/dsa-practice/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikram110703/dsa-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
@@ -428,6 +429,7 @@
 | ------- |
 | [0078-subsets](https://github.com/vikram110703/dsa-practice/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikram110703/dsa-practice/tree/master/0090-subsets-ii) |
+| [0137-single-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0137-single-number-ii) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/vikram110703/dsa-practice/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1435-xor-queries-of-a-subarray](https://github.com/vikram110703/dsa-practice/tree/master/1435-xor-queries-of-a-subarray) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/vikram110703/dsa-practice/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
