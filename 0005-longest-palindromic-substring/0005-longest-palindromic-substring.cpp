@@ -1,38 +1,33 @@
 class Solution {
 public:
-    int cal(int strt,int end,string&s,vector<vector<int>>&dp){
-            int n=s.size();
-            if(end<strt||strt>=n||end<0||strt<0||end>=n)return 0;
-        if(dp[strt][end]!=-1)return dp[strt][end];
-        if(strt==end)return dp[strt][end]=1;
-        if(s[strt]!=s[end])return dp[strt][end]=0;
-        else{
-            //s[strt]==s[end]
-            if(end-strt==1)return dp[strt][end]=1;
-            bool isPal=cal(strt+1,end-1,s,dp);
-            return dp[strt][end]=isPal;
-        }
-        
-        
-    }
-    
-    //this is memoization version     
-    
     string longestPalindrome(string s) {
-        int n=s.size();
-        // int maxLen=1;
-        vector<vector<int>>dp(n+1,vector<int>(n+1,-1));
-        string palindrome;
-        for(int i=0;i<n;i++){
-            for(int j=i;j<n;j++){
-                int ans=cal(i,j,s,dp);
-                if(ans==1)
-                {
-                    if(palindrome.size()<j-i+1)palindrome=s.substr(i,j-i+1);
+          int n = s.length();
+    int start = 0, maxLen = 1;
+
+    for (int i = 0; i < n; i++) {
+
+        // this runs two times for both odd and even 
+        // length palindromes. 
+        // j = 0 means odd and j = 1 means even length
+        for (int j = 0; j <= 1; j++) {
+            int low = i;
+            int high = i + j; 
+
+            // expand substring while it is a palindrome
+            // and in bounds
+            while (low >= 0 && high < n && s[low] == s[high]) 
+            {
+                int currLen = high - low + 1;
+                if (currLen > maxLen) {
+                    start = low;
+                    maxLen = currLen;
                 }
-                // if(ans==1)cout<<i<<" "<<j<<endl;
+                low--;
+                high++;
             }
         }
-        return palindrome;
+    }
+
+    return s.substr(start, maxLen);
     }
 };
