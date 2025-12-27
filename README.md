@@ -193,6 +193,7 @@
 | [1510-find-lucky-integer-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1694-make-sum-divisible-by-p](https://github.com/vikram110703/dsa-practice/tree/master/1694-make-sum-divisible-by-p) |
 | [2340-total-appeal-of-a-string](https://github.com/vikram110703/dsa-practice/tree/master/2340-total-appeal-of-a-string) |
+| [3371-identify-the-largest-outlier-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/3371-identify-the-largest-outlier-in-an-array) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/vikram110703/dsa-practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Sorting
 |  |
@@ -314,6 +315,7 @@
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/vikram110703/dsa-practice/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/vikram110703/dsa-practice/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3371-identify-the-largest-outlier-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/3371-identify-the-largest-outlier-in-an-array) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/vikram110703/dsa-practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/vikram110703/dsa-practice/tree/master/3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
 ## Simulation
@@ -376,6 +378,7 @@
 | [0778-reorganize-string](https://github.com/vikram110703/dsa-practice/tree/master/0778-reorganize-string) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/1510-find-lucky-integer-in-an-array) |
+| [3371-identify-the-largest-outlier-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/3371-identify-the-largest-outlier-in-an-array) |
 ## Graph
 |  |
 | ------- |
@@ -519,6 +522,7 @@
 |  |
 | ------- |
 | [1212-sequential-digits](https://github.com/vikram110703/dsa-practice/tree/master/1212-sequential-digits) |
+| [3371-identify-the-largest-outlier-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/3371-identify-the-largest-outlier-in-an-array) |
 ## Divide and Conquer
 |  |
 | ------- |
