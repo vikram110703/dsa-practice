@@ -194,6 +194,7 @@
 | [0141-linked-list-cycle](https://github.com/vikram110703/dsa-practice/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/vikram110703/dsa-practice/tree/master/0146-lru-cache) |
 | [0264-ugly-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0264-ugly-number-ii) |
+| [0460-lfu-cache](https://github.com/vikram110703/dsa-practice/tree/master/0460-lfu-cache) |
 | [0778-reorganize-string](https://github.com/vikram110703/dsa-practice/tree/master/0778-reorganize-string) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vikram110703/dsa-practice/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -232,6 +233,7 @@
 | [0146-lru-cache](https://github.com/vikram110703/dsa-practice/tree/master/0146-lru-cache) |
 | [0173-binary-search-tree-iterator](https://github.com/vikram110703/dsa-practice/tree/master/0173-binary-search-tree-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
+| [0460-lfu-cache](https://github.com/vikram110703/dsa-practice/tree/master/0460-lfu-cache) |
 | [0729-my-calendar-i](https://github.com/vikram110703/dsa-practice/tree/master/0729-my-calendar-i) |
 | [2207-sequentially-ordinal-rank-tracker](https://github.com/vikram110703/dsa-practice/tree/master/2207-sequentially-ordinal-rank-tracker) |
 ## Binary Search Tree
@@ -451,6 +453,7 @@
 | [0141-linked-list-cycle](https://github.com/vikram110703/dsa-practice/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/vikram110703/dsa-practice/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/vikram110703/dsa-practice/tree/master/0206-reverse-linked-list) |
+| [0460-lfu-cache](https://github.com/vikram110703/dsa-practice/tree/master/0460-lfu-cache) |
 | [1484-linked-list-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1484-linked-list-in-binary-tree) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/vikram110703/dsa-practice/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/vikram110703/dsa-practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -481,6 +484,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/vikram110703/dsa-practice/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/vikram110703/dsa-practice/tree/master/0460-lfu-cache) |
 ## Segment Tree
 |  |
 | ------- |
