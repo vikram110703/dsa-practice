@@ -129,6 +129,7 @@
 | [0386-lexicographical-numbers](https://github.com/vikram110703/dsa-practice/tree/master/0386-lexicographical-numbers) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vikram110703/dsa-practice/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0543-diameter-of-binary-tree) |
+| [0695-max-area-of-island](https://github.com/vikram110703/dsa-practice/tree/master/0695-max-area-of-island) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0834-sum-of-distances-in-tree](https://github.com/vikram110703/dsa-practice/tree/master/0834-sum-of-distances-in-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -153,6 +154,7 @@
 | [0226-invert-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/vikram110703/dsa-practice/tree/master/0322-coin-change) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vikram110703/dsa-practice/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0695-max-area-of-island](https://github.com/vikram110703/dsa-practice/tree/master/0695-max-area-of-island) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikram110703/dsa-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -293,6 +295,7 @@
 | [0502-ipo](https://github.com/vikram110703/dsa-practice/tree/master/0502-ipo) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
+| [0695-max-area-of-island](https://github.com/vikram110703/dsa-practice/tree/master/0695-max-area-of-island) |
 | [0729-my-calendar-i](https://github.com/vikram110703/dsa-practice/tree/master/0729-my-calendar-i) |
 | [0735-asteroid-collision](https://github.com/vikram110703/dsa-practice/tree/master/0735-asteroid-collision) |
 | [0974-reorder-data-in-log-files](https://github.com/vikram110703/dsa-practice/tree/master/0974-reorder-data-in-log-files) |
@@ -417,6 +420,7 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/vikram110703/dsa-practice/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/vikram110703/dsa-practice/tree/master/0695-max-area-of-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vikram110703/dsa-practice/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/vikram110703/dsa-practice/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
@@ -426,6 +430,7 @@
 | [0037-sudoku-solver](https://github.com/vikram110703/dsa-practice/tree/master/0037-sudoku-solver) |
 | [0074-search-a-2d-matrix](https://github.com/vikram110703/dsa-practice/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/vikram110703/dsa-practice/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/vikram110703/dsa-practice/tree/master/0695-max-area-of-island) |
 | [1331-path-with-maximum-gold](https://github.com/vikram110703/dsa-practice/tree/master/1331-path-with-maximum-gold) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/vikram110703/dsa-practice/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
