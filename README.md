@@ -45,6 +45,7 @@
 | [1397-search-suggestions-system](https://github.com/vikram110703/dsa-practice/tree/master/1397-search-suggestions-system) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/vikram110703/dsa-practice/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1994-minimum-number-of-swaps-to-make-the-binary-string-alternating](https://github.com/vikram110703/dsa-practice/tree/master/1994-minimum-number-of-swaps-to-make-the-binary-string-alternating) |
+| [2055-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2055-plates-between-candles) |
 | [2165-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2165-plates-between-candles) |
 | [2325-number-of-ways-to-select-buildings](https://github.com/vikram110703/dsa-practice/tree/master/2325-number-of-ways-to-select-buildings) |
 | [2340-total-appeal-of-a-string](https://github.com/vikram110703/dsa-practice/tree/master/2340-total-appeal-of-a-string) |
@@ -248,6 +249,7 @@
 | [1397-search-suggestions-system](https://github.com/vikram110703/dsa-practice/tree/master/1397-search-suggestions-system) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/vikram110703/dsa-practice/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1946-minimum-absolute-sum-difference](https://github.com/vikram110703/dsa-practice/tree/master/1946-minimum-absolute-sum-difference) |
+| [2055-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2055-plates-between-candles) |
 | [2165-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2165-plates-between-candles) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/vikram110703/dsa-practice/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/vikram110703/dsa-practice/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
@@ -317,6 +319,7 @@
 | [1946-minimum-absolute-sum-difference](https://github.com/vikram110703/dsa-practice/tree/master/1946-minimum-absolute-sum-difference) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vikram110703/dsa-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2035-count-sub-islands](https://github.com/vikram110703/dsa-practice/tree/master/2035-count-sub-islands) |
+| [2055-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2055-plates-between-candles) |
 | [2165-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2165-plates-between-candles) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/vikram110703/dsa-practice/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2227-sum-of-subarray-ranges](https://github.com/vikram110703/dsa-practice/tree/master/2227-sum-of-subarray-ranges) |
@@ -466,6 +469,7 @@
 | [0238-product-of-array-except-self](https://github.com/vikram110703/dsa-practice/tree/master/0238-product-of-array-except-self) |
 | [1435-xor-queries-of-a-subarray](https://github.com/vikram110703/dsa-practice/tree/master/1435-xor-queries-of-a-subarray) |
 | [1694-make-sum-divisible-by-p](https://github.com/vikram110703/dsa-practice/tree/master/1694-make-sum-divisible-by-p) |
+| [2055-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2055-plates-between-candles) |
 | [2165-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2165-plates-between-candles) |
 | [2325-number-of-ways-to-select-buildings](https://github.com/vikram110703/dsa-practice/tree/master/2325-number-of-ways-to-select-buildings) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
