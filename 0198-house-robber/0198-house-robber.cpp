@@ -2,15 +2,15 @@ class Solution {
 public:
     int rob(vector<int>& nums) {
         int n=nums.size();
-        vector<int>dp(n+1,0);
-        if(n==1)return nums[0];
-        if(n==2)return max(nums[0],nums[1]);
-        dp[0]=nums[0];
-        dp[1]=max(nums[0],nums[1]);
-        for(int i=2;i<n;i++){
-            dp[i]=max(dp[i-1],nums[i]+dp[i-2]);
-            // cout<<dp[i]<<" ";
+        int prev1=0,prev2=0;
+        // prev1,prev2
+        for(int i=0;i<n;i++){
+            int op1=prev2+nums[i];
+            int op2=prev1;
+            int currMax=max(op1,op2);
+            prev2=prev1;
+            prev1=currMax;
         }
-        return dp[n-1];
+        return prev1;
     }
 };
