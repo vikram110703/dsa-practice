@@ -290,6 +290,7 @@
 | [0213-house-robber-ii](https://github.com/vikram110703/dsa-practice/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/vikram110703/dsa-practice/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/vikram110703/dsa-practice/tree/master/0239-sliding-window-maximum) |
 | [0274-h-index](https://github.com/vikram110703/dsa-practice/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/vikram110703/dsa-practice/tree/master/0283-move-zeroes) |
 | [0322-coin-change](https://github.com/vikram110703/dsa-practice/tree/master/0322-coin-change) |
@@ -374,6 +375,7 @@
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/vikram110703/dsa-practice/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/vikram110703/dsa-practice/tree/master/0239-sliding-window-maximum) |
 | [0264-ugly-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0264-ugly-number-ii) |
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/vikram110703/dsa-practice/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -522,11 +524,13 @@
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/vikram110703/dsa-practice/tree/master/0239-sliding-window-maximum) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vikram110703/dsa-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Sliding Window
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vikram110703/dsa-practice/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0239-sliding-window-maximum](https://github.com/vikram110703/dsa-practice/tree/master/0239-sliding-window-maximum) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/vikram110703/dsa-practice/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 ## Data Stream
 |  |
@@ -567,4 +571,8 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/vikram110703/dsa-practice/tree/master/0023-merge-k-sorted-lists) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/vikram110703/dsa-practice/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
