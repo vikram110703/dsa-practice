@@ -44,6 +44,7 @@
 | [1381-maximum-score-words-formed-by-letters](https://github.com/vikram110703/dsa-practice/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1397-search-suggestions-system](https://github.com/vikram110703/dsa-practice/tree/master/1397-search-suggestions-system) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/vikram110703/dsa-practice/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1864-minimum-number-of-swaps-to-make-the-binary-string-alternating](https://github.com/vikram110703/dsa-practice/tree/master/1864-minimum-number-of-swaps-to-make-the-binary-string-alternating) |
 | [1994-minimum-number-of-swaps-to-make-the-binary-string-alternating](https://github.com/vikram110703/dsa-practice/tree/master/1994-minimum-number-of-swaps-to-make-the-binary-string-alternating) |
 | [2055-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2055-plates-between-candles) |
 | [2165-plates-between-candles](https://github.com/vikram110703/dsa-practice/tree/master/2165-plates-between-candles) |
@@ -368,6 +369,7 @@
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/vikram110703/dsa-practice/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1829-maximum-units-on-a-truck](https://github.com/vikram110703/dsa-practice/tree/master/1829-maximum-units-on-a-truck) |
+| [1864-minimum-number-of-swaps-to-make-the-binary-string-alternating](https://github.com/vikram110703/dsa-practice/tree/master/1864-minimum-number-of-swaps-to-make-the-binary-string-alternating) |
 | [1994-minimum-number-of-swaps-to-make-the-binary-string-alternating](https://github.com/vikram110703/dsa-practice/tree/master/1994-minimum-number-of-swaps-to-make-the-binary-string-alternating) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vikram110703/dsa-practice/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Heap (Priority Queue)
