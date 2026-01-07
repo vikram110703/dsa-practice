@@ -36,14 +36,14 @@ public:
         counter.resize(n);
         dfs(0);
         dfs2(0, n);
-        for(int i=0;i<n;i++){
-            cout<<counter[i]<<" ";
-        }
-        cout<<endl;
-        for(int i=0;i<n;i++){
-            cout<<res[i]<<" ";
-        }
-        cout<<endl;
+        // for(int i=0;i<n;i++){
+        //     cout<<counter[i]<<" ";
+        // }
+        // cout<<endl;
+        // for(int i=0;i<n;i++){
+        //     cout<<res[i]<<" ";
+        // }
+        // cout<<endl;
 
         return res;
     }
