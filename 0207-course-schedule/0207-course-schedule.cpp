@@ -1,5 +1,7 @@
 class Solution {
 public:
+
+//toposort time(node +edge) space (node)
     bool bfs(int n,vector<int>&inDeg,vector<vector<int>>&adj){
         queue<int>q;
         int cnt=0;
@@ -27,6 +29,7 @@ public:
         for(int i=0;i<preq.size();i++){
            int u=preq[i][1];
            int v=preq[i][0];
+           //u->v this is requirement
             adj[u].push_back(v);
             inDeg[v]+=1;
         }
