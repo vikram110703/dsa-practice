@@ -194,6 +194,7 @@
 | [0141-linked-list-cycle](https://github.com/vikram110703/dsa-practice/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/vikram110703/dsa-practice/tree/master/0146-lru-cache) |
 | [0264-ugly-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0264-ugly-number-ii) |
+| [0347-top-k-frequent-elements](https://github.com/vikram110703/dsa-practice/tree/master/0347-top-k-frequent-elements) |
 | [0460-lfu-cache](https://github.com/vikram110703/dsa-practice/tree/master/0460-lfu-cache) |
 | [0778-reorganize-string](https://github.com/vikram110703/dsa-practice/tree/master/0778-reorganize-string) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -213,6 +214,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0274-h-index](https://github.com/vikram110703/dsa-practice/tree/master/0274-h-index) |
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/vikram110703/dsa-practice/tree/master/0347-top-k-frequent-elements) |
 | [0502-ipo](https://github.com/vikram110703/dsa-practice/tree/master/0502-ipo) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
 | [0646-maximum-length-of-pair-chain](https://github.com/vikram110703/dsa-practice/tree/master/0646-maximum-length-of-pair-chain) |
@@ -297,6 +299,7 @@
 | [0274-h-index](https://github.com/vikram110703/dsa-practice/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/vikram110703/dsa-practice/tree/master/0283-move-zeroes) |
 | [0322-coin-change](https://github.com/vikram110703/dsa-practice/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/vikram110703/dsa-practice/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/vikram110703/dsa-practice/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/vikram110703/dsa-practice/tree/master/0502-ipo) |
 | [0539-minimum-time-difference](https://github.com/vikram110703/dsa-practice/tree/master/0539-minimum-time-difference) |
@@ -382,6 +385,7 @@
 | [0239-sliding-window-maximum](https://github.com/vikram110703/dsa-practice/tree/master/0239-sliding-window-maximum) |
 | [0264-ugly-number-ii](https://github.com/vikram110703/dsa-practice/tree/master/0264-ugly-number-ii) |
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/vikram110703/dsa-practice/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/vikram110703/dsa-practice/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/vikram110703/dsa-practice/tree/master/0502-ipo) |
 | [0778-reorganize-string](https://github.com/vikram110703/dsa-practice/tree/master/0778-reorganize-string) |
@@ -396,6 +400,7 @@
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/vikram110703/dsa-practice/tree/master/0347-top-k-frequent-elements) |
 | [0778-reorganize-string](https://github.com/vikram110703/dsa-practice/tree/master/0778-reorganize-string) |
 | [1140-distant-barcodes](https://github.com/vikram110703/dsa-practice/tree/master/1140-distant-barcodes) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/1510-find-lucky-integer-in-an-array) |
@@ -559,6 +564,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/vikram110703/dsa-practice/tree/master/0023-merge-k-sorted-lists) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikram110703/dsa-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/vikram110703/dsa-practice/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
 |  |
@@ -568,6 +574,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/vikram110703/dsa-practice/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
 ## Counting Sort
 |  |
@@ -581,4 +588,8 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/vikram110703/dsa-practice/tree/master/0239-sliding-window-maximum) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/vikram110703/dsa-practice/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
