@@ -210,6 +210,7 @@
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/vikram110703/dsa-practice/tree/master/0056-merge-intervals) |
+| [0148-sort-list](https://github.com/vikram110703/dsa-practice/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0274-h-index](https://github.com/vikram110703/dsa-practice/tree/master/0274-h-index) |
@@ -457,6 +458,7 @@
 | [0092-reverse-linked-list-ii](https://github.com/vikram110703/dsa-practice/tree/master/0092-reverse-linked-list-ii) |
 | [0141-linked-list-cycle](https://github.com/vikram110703/dsa-practice/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/vikram110703/dsa-practice/tree/master/0146-lru-cache) |
+| [0148-sort-list](https://github.com/vikram110703/dsa-practice/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/vikram110703/dsa-practice/tree/master/0206-reverse-linked-list) |
 | [0460-lfu-cache](https://github.com/vikram110703/dsa-practice/tree/master/0460-lfu-cache) |
 | [1484-linked-list-in-binary-tree](https://github.com/vikram110703/dsa-practice/tree/master/1484-linked-list-in-binary-tree) |
@@ -507,6 +509,7 @@
 | [0005-longest-palindromic-substring](https://github.com/vikram110703/dsa-practice/tree/master/0005-longest-palindromic-substring) |
 | [0027-remove-element](https://github.com/vikram110703/dsa-practice/tree/master/0027-remove-element) |
 | [0141-linked-list-cycle](https://github.com/vikram110703/dsa-practice/tree/master/0141-linked-list-cycle) |
+| [0148-sort-list](https://github.com/vikram110703/dsa-practice/tree/master/0148-sort-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikram110703/dsa-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/vikram110703/dsa-practice/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/vikram110703/dsa-practice/tree/master/0295-find-median-from-data-stream) |
@@ -563,6 +566,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/vikram110703/dsa-practice/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/vikram110703/dsa-practice/tree/master/0023-merge-k-sorted-lists) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikram110703/dsa-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0148-sort-list](https://github.com/vikram110703/dsa-practice/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/vikram110703/dsa-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/vikram110703/dsa-practice/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/vikram110703/dsa-practice/tree/master/1014-k-closest-points-to-origin) |
@@ -584,6 +588,7 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/vikram110703/dsa-practice/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/vikram110703/dsa-practice/tree/master/0148-sort-list) |
 ## Monotonic Queue
 |  |
 | ------- |
