@@ -1,64 +1,34 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
-     ListNode* reverseList(ListNode* head) {
-      ListNode* curr=head;
-      ListNode* prev=NULL;
-
-      while(curr!=NULL && curr->next!=NULL){
-        if(curr->next->next==NULL){
-            // last two nodes
-            ListNode* nxt=curr->next;
-            curr->next=NULL;
-            nxt->next=curr;
-            curr->next=prev;
-            return nxt;
-        }
-        else{
-            ListNode* nxt=curr->next;
-            ListNode* nxtTOnext=curr->next->next;
-            curr->next=prev;
-            prev=curr;
-            curr=nxt;
-        }
-      }
-      return head;
-    }
-
     ListNode* reverseBetween(ListNode* head, int left, int right) {
         if (!head || left == right) return head;
-        ListNode *first=new ListNode(0);
-        ListNode* firsttail=first;
-        ListNode* second=NULL;
-        ListNode* third=NULL;
+        ListNode* tmp=head;
+        ListNode dummy(0);
+        ListNode *tail=&dummy;
 
-        for(int i=1;i<left;i++){
-            firsttail->next=head;
-            head=head->next;
-            firsttail=firsttail->next;
+        for (int i = 1; i < left; i++) {
+           tail->next=tmp;
+           tmp=tmp->next;
+           tail=tail->next;
         }
-        firsttail->next=NULL;
-        ListNode* secondtail=head;//now tail is pointing to middle list
-        for(int i=left;i<right;i++){
-            secondtail=secondtail->next;
+        //reverse start from tmp and  previous list is till tail
+        ListNode* prev=NULL;
+        //first node of middle list; 
+        cout<<tmp->val<<endl;
+        ListNode* firstNodeOfMiddle=NULL;
+        for (int i = 0; i < right - left+1; i++) {
+            ListNode* nextNode=tmp->next;
+            tmp->next=prev;
+            prev=tmp;
+            if(!firstNodeOfMiddle)firstNodeOfMiddle=prev;
+            tmp=nextNode;
         }
-        third=secondtail->next;
-        secondtail->next=NULL;
+        //not tmp is the pointing to 3rd list and prev is head of reversed list
 
-        //first -> reverse(head) -> third
+        tail->next=prev;
+        firstNodeOfMiddle->next=tmp;
+        // cout<<tail->val<<" "<<firstNodeOfMiddle->val<<" "<<tmp->val<<endl;
 
-        firsttail->next=reverseList(head);
-        while(firsttail->next!=NULL)firsttail=firsttail->next;
-        firsttail->next=third;
-        return first->next;
+        return dummy.next;
     }
 };
