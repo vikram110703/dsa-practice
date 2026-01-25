@@ -210,6 +210,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/vikram110703/dsa-practice/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/vikram110703/dsa-practice/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/vikram110703/dsa-practice/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/vikram110703/dsa-practice/tree/master/0179-largest-number) |
@@ -268,6 +269,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/vikram110703/dsa-practice/tree/master/0004-median-of-two-sorted-arrays) |
+| [0015-3sum](https://github.com/vikram110703/dsa-practice/tree/master/0015-3sum) |
 | [0027-remove-element](https://github.com/vikram110703/dsa-practice/tree/master/0027-remove-element) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/vikram110703/dsa-practice/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/vikram110703/dsa-practice/tree/master/0035-search-insert-position) |
@@ -510,6 +512,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/vikram110703/dsa-practice/tree/master/0005-longest-palindromic-substring) |
+| [0015-3sum](https://github.com/vikram110703/dsa-practice/tree/master/0015-3sum) |
 | [0027-remove-element](https://github.com/vikram110703/dsa-practice/tree/master/0027-remove-element) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vikram110703/dsa-practice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0061-rotate-list](https://github.com/vikram110703/dsa-practice/tree/master/0061-rotate-list) |
